@@ -1,0 +1,25 @@
+#!/bin/bash
+#
+set -e
+
+# Deploy Webyp and write output to logfile.
+
+target="$1"
+
+srcdir=$HOME/src/atti/webyp
+
+logdir=$HOME/log/deploy
+logfile=$(date +%Y-%m-%d-%H%M%S)-$target-deploy.txt
+
+case "$target" in
+  "auto1"|"auto2"|"qa1"|"qa2")
+    cd $srcdir
+    mkdir -p $logdir
+    cap deploy -S deploy_env=$target 2>&1 | tee $logdir/$logfile
+    ln -sf $logdir/$logfile $logdir/last
+    ;;
+  *)
+    echo "Invalid target: $target"
+    exit 1
+    ;;
+esac

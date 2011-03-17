@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+set -e
+
+# Run rake test and output to logfile.
+
+if [ ! -z $TEST_ENV ]; then
+  env="$TEST_ENV"
+else
+  env="auto1" # default
+fi
+
+if [ ! -f ./Rakefile ]; then
+  echo "Invalid project directory. Rakefile not found."
+  exit 1
+fi
+
+project=$(basename `pwd`)
+
+logdir=$HOME/log/$project
+logfile=$(date +%Y-%m-%d-%H%M%S)-$env-$project.out
+
+case "$project" in
+  "jellyfish"|"chuckwalla")
+    mkdir -p $logdir
+    rake test | tee $logdir/$logfile
+    ;;
+  *)
+    echo "Invalid project: $project"
+    exit 1
+    ;;
+esac

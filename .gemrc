@@ -1,0 +1,13 @@
+--- 
+:verbose: true
+:backtrace: false
+:benchmark: false
+:sources: 
+- http://rubygems.org/
+- http://gems.atti.wc1.yellowpages.com
+- http://gems.github.com
+- http://gemcutter.org
+- http://gems.rubyforge.org/
+- http://gems.rubyforge.org
+:update_sources: true
+:bulk_threshold: 1000

@@ -1,0 +1,41 @@
+= git-svn-sync
+
+A script for exporting a git repository into Subversion. Useful for
+developers migrating to git when the rest of the organization is stuck
+on Subversion.
+
+Run "git svn-sync -h" for usage.
+
+== Installation
+
+Make sure the internal gem server is in your list of sources:
+
+  % gem sources
+  *** CURRENT SOURCES ***
+
+  http://rubygems.org/
+  http://gems.atti.wc1.yellowpages.com
+
+
+If not, add the source like this:
+
+  % gem sources --add http://gems.atti.wc1.yellowpages.com
+
+
+Then install the gem:
+
+  % gem install git-svn-sync
+
+
+== Note on Patches/Pull Requests
+ 
+* Fork the project.
+* Create a topic branch for your changes.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Send me a pull request.
+
+== Copyright
+
+Copyright (c) 2010 Alf Mikula. See LICENSE for details.

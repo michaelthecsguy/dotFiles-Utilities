@@ -1,0 +1,4 @@
+# Example $HOME/.ondemand
+# Create a file with the following contents:
+:username: username
+:api_key:  api_key

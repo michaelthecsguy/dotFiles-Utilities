@@ -1,0 +1,2138 @@
+
+# session start: Fri Nov 05 11:40:53 -0700 2010
+
+
+%w[one two three].size
+%w[one two three].length
+
+
+
+exit
+
+# session stop: Fri Nov 05 12:34:02 -0700 2010
+
+
+# session start: Fri Nov 05 14:29:23 -0700 2010
+
+
+@browser.open("/")
+selenium.open("/")
+exit
+
+# session stop: Fri Nov 05 14:30:03 -0700 2010
+
+
+# session start: Fri Nov 05 14:30:06 -0700 2010
+
+
+exit
+
+# session stop: Fri Nov 05 15:54:19 -0700 2010
+
+
+# session start: Wed Nov 10 23:19:55 -0800 2010
+
+
+@browser.open('http://www.yellowpages.com')
+@browser.open('http://www.yellowpages.com')
+@browser.open "http://www.yellowpages.com"
+@browser.start_new_browser_session
+@browser.open 'http://www.yellowpages.com'
+@browser.is_element_present('div#header-branding')
+@browser.is_element_present('div.header-branding')
+@browser.is_element_present('#header-branding')
+@browser.is_element_present('#header-navigation')
+@browser.is_element_present('div#header-navigation')
+@browser.is_element_present('div#global-header')
+@browser.is_element_present('div#header-site-links')
+@browser.is_text_present('Discover')
+@browser.is_element_present('div.header-site-links')
+@browser.is_element_present('div#global-footer')
+@browser.is_element_present('div[@id=global-footer]')
+@browser.is_element_present('css=div#global-footer')
+@browser.is_element_present('css=#global-footer')
+@browser.click("css=#header-branding a")
+@browser.click("css=#header-branding a")
+@browser.close_current_browser_session
+@browser.is_element_present('xpath=div[@id=global-footer]')
+@browser.is_element_present('div[@id=global-footer]')
+@browser.start_new_browser_session
+@browser.open('http://www.yellowpages.com')
+@browser.is_element_present('xpath=div[@id=global-footer]')
+@browser.is_element_present(xpath='div[@id=global-footer]')
+@browser.is_element_present('//div[@id=global-footer]')
+@browser.is_element_present('/div[@id=global-footer]')
+@browser.is_element_present('.//div[@id=global-footer]')
+@browser.is_element_present('div[@id=global-footer]')
+@browser.is_element_present('div[@id="global-footer"]')
+@browser.is_element_present("div[@id='global-footer']")
+@browser.is_element_present("//div[@id='global-footer']")
+@browser.is_element_present("css=div#global-footer")
+@browser.is_element_present("css=#global-footer")
+@browser.is_element_present("css=#header-navigation")
+@browser.is_element_present("css=#home-locastion")
+@browser.is_element_present("css=#home-location")
+@browser.is_element_present("css=.home-location")
+@browser.is_element_present("css=.home-location h2")
+@browser.is_text_present("css=.home-location h2")
+@browser.is_element_present("css=.home-location h2")
+@browser.get_text("css=.home-location h2")
+text=@browser.get_text("css=.home-location h2")
+p text
+puts text
+print text
+puts "#{text}"
+text.split(" ")
+assert_match(/New/, "New York, NY")
+require nokogiri
+require 'nokogiri'
+require 'minitest/autorun'
+require 'minitest_common'
+require 'selenium/client'
+require 'selenium'
+assert_match(/New/, "New York, NY")
+@browser.is_element_present("css=#top-home-nav")
+text.split(" ")
+@browser.close_current_session
+@browser.close_current_browser_session
+exit
+
+# session stop: Thu Nov 11 00:54:11 -0800 2010
+
+
+# session start: Thu Nov 11 10:34:44 -0800 2010
+
+
+@browser.start_new_browser_session()
+@browser.is_element_present("css=.directions-waypoint start")
+@browser.is_element_present("css=div.directions-waypoint start")
+@browser.is_element_present("div.directions-waypoint start")
+@browser.is_element_present("css=.waypoint-address")
+@browser.is_element_present("div.start")
+@browser.is_element_present("css=div.start")
+include Assertions
+require 'minitest/unit'
+include Assertions
+include Assertion
+include Minitest::Assertions
+@browser.type("css=div.start", "Hello, CA")
+@browser.type("css=div.start input", "Hello, CA")
+@browser.type("css=.waypoint-address input", "Hello, CA")
+@browser.type("css=div.start input", "Hello, CA")
+@browser.type("css=div.start", "Hello, CA")
+@browser.type("css=div.start input", "Hello, CA")
+@browser.close_the_current_browser_session()
+@browser.close_current_browser_session()
+@browser.start_new_browser_session()
+@browser.open("http://prod1.wc1.yellowpages.com/")
+@selenium.type("css=div.start input", "611 N. Brand Blvd., Glendale, CA")
+@selenium.type("css=div.start input", "611 N. Brand Blvd., 91203")
+@browser.type("css=div.start input", "611 N. Brand Blvd., 91203")
+@browser.click("Get Directions")
+@browser.click("css=div.directions-submit")
+@browser.click("css=div.directions-submit")
+@browser.click("css=div.directions-submit")
+@browser.click("css=#directionsform-submit")
+@browser.type("css=div.start input", "611 N. Brand Blvd., 91203")
+@browser.type("css=div.start input","611 N. Brand Blvd., 91203")
+@browser.click("css=#directionsform-submit")
+@browser.click("css=.email-map")
+@browser.is_element_present("css=.yplightbox_content")
+@browser.click("link='Send Email'")
+@browser.click("link=Send Email")
+Nokogiri::HTML.parse(selenium.get_html_source).css("div#yplightbox_content")
+require nokogiri
+require 'nokogiri'
+include Nokogiri::HTML
+Nokogiri::HTML.parse(selenium.get_html_source).css("div#yplightbox_content")
+Nokogiri::HTML.parse(@browser.get_html_source).css("div#yplightbox_content")
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content")
+@browser.is_element_present("css=.yplightbox_content")
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content").attr('name').value
+
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content").attr('name')
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content").attr('name')
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content").attr('name')
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content").attr()
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.yplightbox_content").attr('value')
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.email_content")
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.email_content")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nokogiri::HTML.parse(@browser.get_html_source).css("div.email_content")
+@browser.is_element_present("css=.yplightbox_content")
+@browser.is_element_present("css=.email_content")
+@browser.select_frame("css=.yplightbox_content")
+@browser.focus("css=.yplightbox_content")
+@browser.is_text_present("E-Mail Map")
+exit
+
+# session stop: Thu Nov 11 15:51:05 -0800 2010
+
+
+# session start: Tue Nov 16 20:55:08 -0800 2010
+
+
+a = Analyzer.new("#{sample.txt}")
+require 'text_analyzer'
+a = Analyzer.new("#{sample.txt}")
+a = Analyzer.new("sample.txt")
+a.get_line_count
+a.get_line_count
+a.get_line_count
+a = Analyzer.new("sample.txt")
+a.get_line_count
+a.get_line_count
+require 'text_analyzer'
+exit
+
+# session stop: Tue Nov 16 21:09:56 -0800 2010
+
+
+# session start: Tue Nov 16 21:09:59 -0800 2010
+
+
+require 'text_analyzer'
+a.get_line_count
+a = Analyzer.new("sample.txt")
+a.get_line_count
+exit
+
+# session stop: Tue Nov 16 21:14:41 -0800 2010
+
+
+# session start: Tue Nov 16 21:14:44 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_line_count
+a.get_line_count
+exit
+
+# session stop: Tue Nov 16 21:15:27 -0800 2010
+
+
+# session start: Tue Nov 16 21:15:29 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_line_count
+
+exit
+
+# session stop: Tue Nov 16 21:16:17 -0800 2010
+
+
+# session start: Tue Nov 16 21:38:52 -0800 2010
+
+
+require 'text_analyzer'
+a.get_line_count
+a = Analyzer.new("sample.txt")
+a.get_line_count
+a.text
+exit
+
+# session stop: Tue Nov 16 21:40:44 -0800 2010
+
+
+# session start: Tue Nov 16 21:40:46 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_line_count
+a.get_character_count
+a = Analyzer.new("sample.txt")
+a.get_character_count
+a.get_line_count
+exit
+
+# session stop: Tue Nov 16 21:44:09 -0800 2010
+
+
+# session start: Tue Nov 16 21:44:12 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_character_count
+exit
+
+# session stop: Tue Nov 16 21:45:03 -0800 2010
+
+
+# session start: Tue Nov 16 21:45:06 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_character_count
+exit
+
+# session stop: Tue Nov 16 21:46:13 -0800 2010
+
+
+# session start: Tue Nov 16 21:46:16 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_character_count
+exit
+
+# session stop: Tue Nov 16 21:48:16 -0800 2010
+
+
+# session start: Tue Nov 16 21:48:20 -0800 2010
+
+
+require 'text_analyzer'
+a = Analyzer.new("sample.txt")
+a.get_character_count
+exit
+
+# session stop: Tue Nov 16 22:14:45 -0800 2010
+
+
+# session start: Thu Nov 18 19:25:19 -0800 2010
+
+
+require 'Analyzer'
+require 'text_analyzer.rb'
+a = Analyzer new ('sample.txt')
+a = Analyzer new('sample.txt')
+a = Analyzer.new('sample.txt')
+a.get_line_count
+a.get_character_count
+a.get_character_count
+exit
+
+# session stop: Thu Nov 18 19:28:01 -0800 2010
+
+
+# session start: Thu Nov 18 19:28:03 -0800 2010
+
+
+require 'text_analyzer.rb'
+a = Analyzer.new('sample.txt')
+a.get_character_count
+require 'mainclass.rb'
+main = Mainclass.new()
+main = Mainclass.new()
+exit
+
+# session stop: Thu Nov 18 19:31:06 -0800 2010
+
+
+# session start: Thu Nov 18 19:31:08 -0800 2010
+
+
+require 'mainclass.rb'
+main = Mainclass.new()
+exit
+
+# session stop: Thu Nov 18 19:32:53 -0800 2010
+
+
+# session start: Thu Nov 18 19:34:01 -0800 2010
+
+
+main = Mainclass.new()
+require 'mainclass.rb'
+main = Mainclass.new()
+exit
+
+# session stop: Thu Nov 18 19:37:32 -0800 2010
+
+
+# session start: Thu Nov 18 19:37:37 -0800 2010
+
+
+require 'mainclass.rb'
+main = Mainclass.new()
+exit
+
+# session stop: Thu Nov 18 19:38:30 -0800 2010
+
+
+# session start: Thu Nov 18 19:38:33 -0800 2010
+
+
+main = Mainclass.new()
+require 'mainclass.rb'
+main = Mainclass.new()
+exigt
+exigt
+exit
+
+# session stop: Thu Nov 18 19:39:47 -0800 2010
+
+
+# session start: Thu Nov 18 19:39:51 -0800 2010
+
+
+require 'mainclass.rb'
+main = Mainclass.new()
+exit
+
+# session stop: Thu Nov 18 19:40:13 -0800 2010
+
+
+# session start: 2010-12-13 11:16:41 -0800
+
+
+@browser.open("http://www.yellowpages.com")
+@browser.is_element_present("css=.yplightbox_content")
+exit
+
+# session stop: 2010-12-13 11:18:49 -0800
+
+
+# session start: 2010-12-13 11:22:36 -0800
+
+
+@browser.start_new_browser_session
+
+
+
+
+@browser.open("http://www.yellowpages.com")
+@browser.close_browser_session
+@browser.close_session
+@browser.close_current_browser_session
+@browser
+exit
+
+# session stop: 2010-12-13 12:05:07 -0800
+
+
+# session start: 2010-12-13 12:21:04 -0800
+
+
+@browser.start_new_browser_session
+@browser.open("www.yellowpages.com")
+@browser.get_text("css-h2.heading-black")
+@browser.get_text("css=h2.heading-black")
+@browser.close_current_session
+@browser.close_current_browser_session
+exit
+
+# session stop: 2010-12-13 12:24:30 -0800
+
+
+# session start: 2010-12-13 14:51:22 -0800
+
+
+@browser
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com")
+@browser.is_element_present("css=span.label")
+@browser.get_text("css=span.label")
+@browser.get_text("css=span.label")
+@browser.get_text("css=input.search-terms")
+@browser.get_text("css=input.search-location")
+@browser.get_text("css=input#search-location")
+@browser.get_text("css=span.label")
+@browser.is_element_present("css=#global-searchbox")
+@browser.is_element_present("css=.searchform-fields")
+assert_match("Business Name or Category", @browser.get_text("css=span.label"))
+exit
+
+# session stop: 2010-12-13 15:19:25 -0800
+
+
+# session start: 2010-12-14 10:02:47 -0800
+
+
+require 'nokogiri'
+@browser
+@browser.start_time
+@broser.start_new_browser_session
+@browser.start_new_browser_session
+@browser.open_window
+@browser.open("http://www.yellowpages.com")
+exit
+
+# session stop: 2010-12-14 10:26:02 -0800
+
+
+# session start: 2010-12-14 14:47:02 -0800
+
+
+@browser
+@browser.start_new_browser_session
+@browser.open("www.yellowpages.com")
+@browser.open("www.yellowpages.com")
+@browser.open("http://www.yellowpages.com")
+@browser.get_text("css=.error-message")
+foo = "this is a very long search term lets see what happens this is a very long search term lets see what happens this is"
+@browser.get_text("css=.error-message")include? foo
+@browser.get_text("css=.error-message").include? foo
+@browser.get_text("css=.error-message").include? "this is a very long search"
+exit
+
+# session stop: 2010-12-14 15:16:32 -0800
+
+
+# session start: 2010-12-15 13:22:55 -0800
+
+
+require 'nokogiri'
+@browser
+@browser.start_new_browser_session
+
+
+
+
+
+
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com")
+exit
+
+# session stop: 2010-12-15 13:33:58 -0800
+
+
+# session start: 2010-12-15 13:34:22 -0800
+
+
+require 'nokogiri'
+@browser
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com")
+@browser.get_html_source
+require 'nokogiri'
+require 'nokogiri'
+requires 'nokogiri'
+require 'nokogiri'
+Nokogiri
+Nokogiri::HTML(@browser.get_html_source).css('div#search-results div[id^="lid-"]')
+Nokogiri::HTML(@browser.get_html_source).css('div#sponsored-listings li[id^="vcard-topwell-lid-"]')
+foo = Nokogiri::HTML(@browser.get_html_source).css('div#sponsored-listings li[id^="vcard-topwell-lid-"]')
+foo
+puts foo
+Nokogiri::HTML(@browser.get_html_source).css('div#yahoo_ss li[class^="tp_listing"]')
+@sponsored_web_results=Nokogiri::HTML(@browser.get_html_source).css('div#yahoo_ss li[class^="tp_listing"]')
+@sponsored_web_result.length
+@sponsored_web_results.length
+foo1=Nokogiri::HTML(@browser.get_html_source).css('div.sb-group li[class^="rightwell-lid-"]')
+foo1=Nokogiri::HTML(@browser.get_html_source).css('div#sb-group li[class^="rightwell-lid-"]')
+foo1=Nokogiri::HTML(@browser.get_html_source).css('div#sb-group li[id^="rightwell-lid-"]')
+foo1=Nokogiri::HTML(@browser.get_html_source).css('div.sb-group li[id^="rightwell-lid-"]')
+foo1.length
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+foo1.length
+
+
+
+
+
+
+foo1=Nokogiri::HTML(@browser.get_html_source).css('div.sb-group li[id^="rightwell-lid-"]')
+
+
+
+
+
+
+
+
+
+
+
+
+foo1=Nokogiri::HTML(@browser.get_html_source).css('div.sb div.sb-group li[id^="rightwell-lid-"]')
+foo1.length
+exit
+
+# session stop: 2010-12-15 18:07:02 -0800
+
+
+# session start: 2010-12-16 09:49:47 -0800
+
+
+class A_Class
+def initialize(somevar)
+@@myvar = somevar
+end
+
+def show
+puts @@myvar
+end
+end
+@a=MyClass.new("Hello A")
+@a=A_Class.new("Hello A")
+@b=B_Class.new("Hello B")
+@b=A_Class.new("Hello B")
+@a.show
+exit
+
+# session stop: 2010-12-16 13:32:38 -0800
+
+
+# session start: Thu Dec 23 08:08:32 -0800 2010
+
+
+require 'analyzer'
+@analyzer = Analyzer.new("sample.txt")
+@analyzer.get_line_count()
+@analyzer.get_character_count()
+exit
+
+# session stop: Thu Dec 23 08:44:09 -0800 2010
+
+
+# session start: Thu Dec 23 08:44:27 -0800 2010
+
+
+require 'analyzer'
+@analyzer.get_line_count()
+@analyzer = Analyzer.new("sample.txt")
+@analyzer.get_line_count()
+exit
+
+# session stop: Thu Dec 23 08:48:43 -0800 2010
+
+
+# session start: 2010-12-23 09:49:08 -0800
+
+
+require 'searchresults"
+
+
+
+
+
+
+require 'SearchResults'
+exit
+
+# session stop: 2010-12-23 10:29:21 -0800
+
+
+# session start: 2010-12-23 10:31:09 -0800
+
+
+exit
+
+# session stop: 2010-12-23 10:31:43 -0800
+
+
+# session start: 2010-12-23 10:34:20 -0800
+
+
+require 'searchresults'
+'SearchResults"
+
+
+
+require 'Search_Results.rb'
+ls
+require 'httparty'
+r = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/florists")
+require 'nokogiri'
+exit
+
+# session stop: 2010-12-23 10:45:31 -0800
+
+
+# session start: 2010-12-23 10:45:47 -0800
+
+
+require 'search_results'
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/florists")
+sr = SearchResults.new(response.body)
+p sr
+require 'ap'
+p sr
+r.catexp.each { |el| puts el[:business_name]}
+sr.catexp.each { |el| puts el[:business_name]}
+exit
+
+# session stop: 2010-12-23 10:54:03 -0800
+
+
+# session start: 2010-12-23 10:54:05 -0800
+
+
+require 'nokogiri'
+require 'ap'
+exit
+
+# session stop: 2010-12-23 15:54:12 -0800
+
+
+# session start: 2010-12-23 15:55:51 -0800
+
+
+require 'awesome_print'
+ap
+ap "hello"
+exit
+
+# session stop: 2010-12-23 15:56:23 -0800
+
+
+# session start: 2010-12-23 15:58:23 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'awesome_print'
+require 'SearchResults'
+require 'searchresults'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/florists?g=Los+Angeles%2C+CA&q=Florists")
+sr = SearchResult.new(response.body)
+sr = SearchResults.new(response.body)
+ap sr
+pp sr
+sr.all
+ap sr.all
+ap sr.all[0]
+ap sr.all[0]:business_name
+sr.catexp.each { |el| puts el[:business_name]}
+ap sr.all[0][:business_name]
+require 'sponsored_listings'
+sr = sponsored_listings.new(response.body)
+sr = SponsoredListings.new(response.body)
+sr.all
+sr.featured_business_listing_results
+ap sr.featured_business_listing_results
+require 'sponsored_listings"
+'
+require 'sponsored_listings'
+require 'sponsored_listings'
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_results
+exit
+
+# session stop: 2010-12-23 17:08:39 -0800
+
+
+# session start: 2010-12-23 17:08:43 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'sponsored_listings'
+require 'ap'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/florists?g=Los+Angeles%2C+CA&q=Florists")
+require 'sponsored_listings'
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_results
+ap sr.featured_business_listing_results.collect do |el|
+assert_match(/http\:\/\/www\.|\.com/, #{el[:business_name])}
+)
+end
+ap sr.featured_business_listing_results.collect do |el|
+assert_match(/http\:\/\/www\.|\.com/, #{el[:business_name])}
+)
+end
+ap sr.featured_business_listing_results.collect do |el|
+assert_match(/http\:\/\/www\.|\.com/, #{el[:ad_icon_ext_url])}
+)
+end
+ap sr.featured_business_listing_results
+ap sr.featured_business_listing_results[:business_name]
+ap sr.featured_business_listing_results.[:business_name]
+ap sr.featured_business_listing_results[1].[:business_name]
+ap sr.featured_business_listing_results[1][:business_name]
+ap sr.featured_business_listing_results[][:business_name]
+sr.featured_business_listing_results.each do |el, i|
+el[i][:business_name]
+end
+i = 0
+sr.featured_business_listing_results.each do |el|
+ap el[i][:business_name]
+i = i+1
+end
+sr.featured_business_listing_results.collect do |el|
+ap el[i][:business_name]
+i = i+1
+end
+sr.featured_business_listing_results.collect do |el|
+ap el.[:business_name]
+end
+sr.featured_business_listing_results.collect do |el|
+ap el[1].[:business_name]
+end
+ap el[1][:business_name]
+sr.featured_business_listing_results.collect do |el|
+ap el[1][:business_name]
+end
+sr.featured_business_listing_results.collect_with_index do |el, i|
+ap el[i][:business_name]
+end
+sr.featured_business_listing_results.collect.with_index do |el, i|
+ap el[i][:business_name]
+end
+sr.featured_business_listing_results.length
+for i in 0..sr.featured_business_listing_results.length
+ap sr.featured_business_listing_results[i][:business_name]
+end
+for i in 0..sr.featured_business_listing_results.length-1
+ap sr.featured_business_listing_results[i][:business_name]
+end
+end
+all=sr.featured_business_listing_results
+ap all
+all.length
+for i in 0..all.length-1
+ap all[i][:ad_icon_ext_url]
+end
+exit
+
+# session stop: 2010-12-23 23:30:39 -0800
+
+
+# session start: 2010-12-27 10:01:13 -0800
+
+
+exit
+
+# session stop: 2010-12-27 10:01:19 -0800
+
+
+# session start: 2010-12-27 10:01:23 -0800
+
+
+require 'nokogiri'
+require 'minitest/common'
+require 'minitest'
+require 'httparty'
+require 'sponsored_listings'
+sr = SponsoredListings.new(response.body)
+require 'awesome_print'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/florists?g=Los+Angeles%2C+CA&q=Florists")
+sr = SponsoredListings.new(response.body)
+ap sr
+ap sr.featured_business_listing_all
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+ap sr.featured_business_listing_all[5]
+ap sr.featured_business_listing_all[4]
+ap sr.featured_business_listing_all[4][:features]
+ap sr.featured_business_listing_all[4][:features][0]
+ap sr.featured_business_listing_all[4][:features][0].attr('href').text
+exit
+
+# session stop: 2010-12-27 14:05:29 -0800
+
+
+# session start: 2010-12-27 14:05:36 -0800
+
+
+require 'httparty'
+require 'sponsored_listings'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+exit
+
+# session stop: 2010-12-27 14:07:40 -0800
+
+
+# session start: 2010-12-27 14:07:43 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'sponsored_listings'
+ap sr.featured_business_listing_all
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+exit
+
+# session stop: 2010-12-27 14:15:03 -0800
+
+
+# session start: 2010-12-27 14:15:05 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+require 'sponsored_listings'
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+require 'sponsored_listings'
+exit
+
+# session stop: 2010-12-27 14:16:05 -0800
+
+
+# session start: 2010-12-27 14:16:07 -0800
+
+
+require 'sponsored_listings'
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+exit
+
+# session stop: 2010-12-27 14:17:38 -0800
+
+
+# session start: 2010-12-27 14:17:40 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'sponsored_listings'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+exit
+
+# session stop: 2010-12-27 14:18:46 -0800
+
+
+# session start: 2010-12-27 14:18:47 -0800
+
+
+require 'nokogiri'
+require 'sponsored_listings'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+
+
+# session stop: 2010-12-27 17:54:40 -0800
+
+
+# session start: 2010-12-28 08:42:10 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'sponsored_listings'
+exit
+
+# session stop: 2010-12-28 09:30:01 -0800
+
+
+# session start: 2010-12-28 09:30:17 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'sponsored_listings'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+exit
+
+# session stop: 2010-12-28 09:55:51 -0800
+
+
+# session start: 2010-12-28 09:55:53 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/attorneys?g=Los+Angeles%2C+CA&q=Attorneys")
+require 'sponsored_listings'
+sr = SponsoredListings.new(response.body)
+ap sr.featured_business_listing_all
+exit
+
+# session stop: 2010-12-28 14:45:23 -0800
+
+
+# session start: 2010-12-28 14:45:29 -0800
+
+
+require 'SearchResults'
+exit
+
+# session stop: 2010-12-28 14:45:56 -0800
+
+
+# session start: 2010-12-28 15:43:32 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+require 'more_info'
+exit
+
+# session stop: 2010-12-28 15:49:23 -0800
+
+
+# session start: 2010-12-28 15:51:08 -0800
+
+
+require 'more_info'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+social = @more_info.css('div.save-and-share ul')
+mi  = MoreInfo.new(response)
+require 'nokogiri'
+mi  = MoreInfo.new(response)
+
+
+
+ap mi
+mi
+ap mi.css('div.save-and-share')
+require 'nokogiri'
+mi  = MoreInfo.new(response.body)
+mi.css('div.save-and-share')
+@more_info.class
+response
+response
+response.body
+mi  = MoreInfo.new(response.body)
+mi.css
+@more_info.css
+mi  = MoreInfo.new(response.body)
+mi.more_info
+@more_info.class
+mi.more_info.class
+exit
+
+# session stop: 2010-12-28 16:54:46 -0800
+
+
+# session start: 2010-12-28 16:54:48 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'more_info'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+mi = MoreInfo.new(response.body)
+mi.more_info
+mi.more_info
+ap mi.more_info
+mi.more_info.css('div.save-and-share ul')
+ap mi.more_info.css('div.save-and-share ul')
+ap mi.more_info.css('div.save-and-share ul[class$="-listing"]')
+ap mi.more_info.css('div.save-and-share ul[class$="_listing"]')
+exit
+
+# session stop: 2010-12-28 17:35:42 -0800
+
+
+# session start: 2010-12-28 17:35:44 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+requre 'more_info'
+require 'more_info'
+require 'more_info'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+mi = MoreInfo.new(response.body)
+ap mi.more_info.css('div.save-and-share ul')
+ap mi.more_info.css('div.save-and-share ul[class$="_listing"]')
+exit
+
+# session stop: 2010-12-28 17:40:23 -0800
+
+
+# session start: 2010-12-28 17:40:25 -0800
+
+
+require 'httparty'
+require 'more_info'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+mi = MoreInfo.new(response.body)
+social_links=mi.more_info.css('div.save-and-share ul[class$="_listing"]')
+mi.social_link_ary(social_links)
+require 'more_info'
+exit
+
+# session stop: 2010-12-28 17:43:49 -0800
+
+
+# session start: 2010-12-28 17:43:51 -0800
+
+
+require 'httparty'
+require 'more_info'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+mi = MoreInfo.new(response.body)
+require 'nokogiri'
+mi = MoreInfo.new(response.body)
+social_links=mi.more_info.css('div.save-and-share ul[class$="_listing"]')
+mi.social_link_ary(social_links)
+exit
+
+# session stop: 2010-12-28 17:49:02 -0800
+
+
+# session start: 2010-12-29 08:25:58 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'more_info'
+exit
+
+# session stop: 2010-12-29 09:42:33 -0800
+
+
+# session start: 2010-12-29 09:51:08 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'more_info'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+mi = MoreInfo.new(response.body)
+social_links=mi.more_info.css('div.save-and-share ul[class$="_listing"]')
+ap social_links
+mi.social_links
+social_link.class
+social_link.type
+social_links.type
+social_links.class
+exit
+
+# session stop: 2010-12-29 12:01:33 -0800
+
+
+# session start: 2010-12-29 12:01:35 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mi.social_links
+mi = MoreInfo.new(response.body)
+require 'more_info'
+mi = MoreInfo.new(response.body)
+mi.social_links
+ap mi.social_links
+exit
+
+# session stop: 2010-12-29 12:05:34 -0800
+
+
+# session start: 2010-12-29 12:05:35 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'more_info'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+mi = MoreInfo.new(response.body)
+mi.social_links
+exit
+
+# session stop: 2010-12-29 12:20:37 -0800
+
+
+# session start: 2010-12-29 12:20:40 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+require 'more_info'
+mi = MoreInfo.new(response.body)
+mi.social_links
+ap mi.social_links
+require 'lightbox'
+lb = LightBox.new(response.body)
+ap lb
+lb.lightbox_links
+exit
+
+# session stop: 2010-12-29 14:04:30 -0800
+
+
+# session start: 2010-12-29 14:04:33 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+lb = LightBox.new(response.body)
+require 'lightbox'
+lb = LightBox.new(response.body)
+lb.lightbox_links
+exit
+
+# session stop: 2010-12-29 14:05:56 -0800
+
+
+# session start: 2010-12-29 14:05:58 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'lightbox'
+response = HTTParty.get("http://www.yellowpages.com/los-angeles-ca/mip/bankruptcy-attorney-greg-sletteland-247291?lid=154340535")
+lb = LightBox.new(response.body)
+ap lb
+lb.lightbox_links
+ap lb.lightbox_links
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sr = SearchResults.new(response.body)
+sr.all
+ap sr.all
+exit
+
+# session stop: 2010-12-29 14:50:35 -0800
+
+
+# session start: 2010-12-29 14:50:36 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results"
+
+'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sr = SearchResults.new(response.body)
+ap sr.all
+exit
+
+# session stop: 2010-12-29 14:53:30 -0800
+
+
+# session start: 2010-12-29 14:53:32 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sr = SearchResults.new(response.body)
+ap sr.all
+
+
+# session stop: 2010-12-29 17:22:15 -0800
+
+
+# session start: 2010-12-30 12:39:37 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+exit
+
+# session stop: 2010-12-30 12:40:02 -0800
+
+
+# session start: 2010-12-30 12:40:06 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+require 'sponsored_listing'
+require 'sponsored_listings'
+sl = SponsoredListing.new(response.body)
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listing_count
+exit
+
+# session stop: 2010-12-30 12:43:51 -0800
+
+
+# session start: 2010-12-30 12:43:56 -0800
+
+
+require 'sponsored_listings'
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listing_local_count
+sl.featured_sponsored_business_listings_local_count
+exit
+
+# session stop: 2010-12-30 12:45:24 -0800
+
+
+# session start: 2010-12-30 12:45:25 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+require 'sponsored_listings'
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listings_local_count
+exit
+
+# session stop: 2010-12-30 12:47:52 -0800
+
+
+# session start: 2010-12-30 12:47:53 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sl = SponsoredListings.new(response.body)
+require 'sponsored_listings'
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listings_local_count
+exit
+
+# session stop: 2010-12-30 12:50:34 -0800
+
+
+# session start: 2010-12-30 12:50:36 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'sponsored_listings'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listing_local_count
+sl.featured_sponsored_business_listing_count
+exit
+
+# session stop: 2010-12-30 12:51:46 -0800
+
+
+# session start: 2010-12-30 13:55:18 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'sponsored_listings'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listing_rightwell_count
+exit
+
+# session stop: 2010-12-30 13:56:39 -0800
+
+
+# session start: 2010-12-30 13:56:42 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sl = SponsoredListings.new(response.body)
+require 'sponsored_listing'
+require 'sponsored_listings'
+sl = SponsoredListings.new(response.body)
+sl.featured_sponsored_business_listing_rightwell_count
+exit
+
+# session stop: 2010-12-30 13:57:59 -0800
+
+
+# session start: 2011-01-03 08:18:48 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+
+
+
+
+
+
+
+
+
+sr = SearchResults.new(response.body)
+sr.all
+ap sr.all
+exit
+
+# session stop: 2011-01-03 10:11:47 -0800
+
+
+# session start: 2011-01-03 10:11:49 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys") l
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys") .l
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sr = SearchResults.new(response.body)
+require 'search_results'
+sr = SearchResults.new(response.body)
+ap sr.all
+exit
+
+# session stop: 2011-01-03 15:55:00 -0800
+
+
+# session start: 2011-01-04 08:03:10 -0800
+
+
+exit
+
+# session stop: 2011-01-04 08:03:12 -0800
+
+
+# session start: 2011-01-04 08:03:15 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+sr = SearchResults.new(response.body)
+ap sr.all
+@browser.new
+start_browser
+
+
+
+exit
+
+# session stop: 2011-01-04 16:56:19 -0800
+
+
+# session start: 2011-01-04 16:57:57 -0800
+
+
+@browser.start_new_session
+@browser.start_session
+exit
+
+# session stop: 2011-01-04 16:58:30 -0800
+
+
+# session start: 2011-01-04 16:58:49 -0800
+
+
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com/berkeley-ca/script?g=Berkeley%2C+CA&q=<<Script>>")
+puts @browser.get_location
+CGI::unescape(@browser.get_location)
+assert_match(/\S+q\=\<\<Script\>\>/, CGI::unescape(@browser.get_location))
+assert_match(/\S+\/g\=Berkeley\, CA\&q\=\<\<Script\>\>/, CGI::unescape(@browser.get_location))
+assert_match(/\S+g\=Berkeley\, CA\&q\=\<\<Script\>\>/, CGI::unescape(@browser.get_location))
+assert_match(%r{\S+g=Berkeley, CA&q=<<Script>>}, CGI::unescape(@browser.get_location))
+exit
+
+# session stop: 2011-01-04 17:27:19 -0800
+
+
+# session start: 2011-01-12 14:36:56 -0800
+
+
+df
+exit
+
+# session stop: 2011-01-12 14:39:53 -0800
+
+
+# session start: 2011-01-12 14:39:57 -0800
+
+
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys?g=Irvine%2C+CA&q=Attorneys")
+
+
+exit
+
+# session stop: 2011-01-12 14:41:15 -0800
+
+
+# session start: 2011-01-12 14:41:18 -0800
+
+
+exit
+
+# session stop: 2011-01-12 14:41:43 -0800
+
+
+# session start: 2011-01-14 09:37:24 -0800
+
+
+response = HTTParty.get("http://www.yellowpages.com")
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com") l
+response = HTTParty.get("http://www.yellowpages.com")
+@browser.start_new_browser_session
+@browser.start_session
+@browser.new
+@browser.start_new_browser_session
+
+
+# session stop: 2011-01-14 09:41:13 -0800
+
+
+# session start: 2011-01-14 09:41:22 -0800
+
+
+require 'nokogiri'
+
+require 'httparty'
+@browser.start_new_browser_session
+@browser.start_new_browser_session
+
+
+@browser.open("http://www.yellowpages.com")
+exit
+
+# session stop: 2011-01-14 09:44:25 -0800
+
+
+# session start: 2011-01-14 09:44:28 -0800
+
+
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com")
+ap @browser.get_text("css=input#search-location")
+ap @browser.get_text("css=div.searchform-fields")
+ap @browser.get_text("css=input.ac_input")
+ap @browser.get_text("css=div.searchform-fields span[2]")
+ap @browser.get_text("css=div.searchform-fields span")
+ap @browser.get_text("css=div.searchform-fields span span")
+ap @browser.get_text("css=input.search-location")
+ap @browser.get_text("css=input#search-location")
+assert_match(/[a-zA-Z\,\s]+/, @browser.get_text("css=input#search-location"))
+ap assert_match(/[a-zA-Z\,\s]+/, @browser.get_text("css=input#search-location"))
+CGI::unescape(@browser.get_location)
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com")
+response_nk = Nokogiri::HTML(response.body).css('input#search-location')
+response_nk = Nokogiri::HTML(response.body).css('input#search-location').text
+@browser.get_eval("this.browserbot.getUserWindow().document.getElementById('search-location').value")
+@browser.get_eval("this.browserbot.document.getElementById('search-location').value")
+ assert_match(/[a-zA-Z\,\s]+/, @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('search-location').value")
+ puts assert_match(/[a-zA-Z\,\s]+/, @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('search-location').value")
+ puts assert_match(/[a-zA-Z\,\s]+/, @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('search-location').value"))
+
+
+# session stop: 2011-01-14 16:31:16 -0800
+
+
+# session start: 2011-01-19 16:20:14 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com")
+
+
+# session stop: 2011-01-19 16:51:22 -0800
+
+
+# session start: 2011-01-19 16:51:40 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com")
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix').text
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul').text
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul').text.strip
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul')
+def names_ary(pcn)
+popular_cat = pcn.collect.with_index do |el, i|
+{
+:name_number => i + 1
+,
+:popular_categories_name => el.css('li > a').text,
+}
+end
+end
+eixt
+exit
+
+# session stop: 2011-01-19 17:07:36 -0800
+
+
+# session start: 2011-01-19 17:07:40 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com")
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul')
+require 'popular_categories.rb'
+names_ary(response_nk)
+PC = PopularCategories.new(response)
+PC.names_ary(category_names)
+PC.names_ary(@category_names)
+exit
+
+# session stop: 2011-01-19 17:13:15 -0800
+
+
+# session start: 2011-01-19 17:13:19 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories.rb'
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response)
+PC.names_ary(@category_names)
+PC.names_ary(category_names)
+PC.names_ary(PC.category_names)
+PC.category_names
+PC = PopularCategories.new(response.body)
+PC.category_names
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li > a').text
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li > a').text
+response_nk = Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li > a')
+exit
+
+# session stop: 2011-01-19 17:23:38 -0800
+
+
+# session start: 2011-01-19 17:23:41 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response.body)
+require 'popular_categories.rb'
+PC = PopularCategories.new(response.body)
+ap PC.popular_categories_all
+require 'popular_categories.rb'
+exit
+
+# session stop: 2011-01-19 17:29:51 -0800
+
+
+# session start: 2011-01-19 17:29:55 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories.rb'
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response.body)
+ap PC.popular_categories_all
+PC.category_names
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li')
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li').text
+ap Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li').text
+ap Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li')
+ap Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li > a')
+ap Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix li > a').text
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li > a').text
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul')
+exit
+
+# session stop: 2011-01-19 17:45:07 -0800
+
+
+# session start: 2011-01-19 17:45:11 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories'
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response.body)
+PC.popular_categories_all
+exit
+
+# session stop: 2011-01-19 17:47:23 -0800
+
+
+# session start: 2011-01-19 17:47:25 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories'
+PC = PopularCategories.new(response.body)
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response.body)
+PC.category_names
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response.body)
+ecit
+exit
+
+# session stop: 2011-01-19 17:50:52 -0800
+
+
+# session start: 2011-01-19 17:50:55 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories'
+PC = PopularCategories.new(response.body)
+response = HTTParty.get("http://www.yellowpages.com")
+PC = PopularCategories.new(response.body)
+PC.category_names
+puts PC.category_names
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li')
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li > a')
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li > a').text
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li').text
+Nokogiri::HTML(response.body).css('div#category-drawer div.drawer-content div.clearfix ul li').text.strip
+exit
+
+# session stop: 2011-01-19 17:57:55 -0800
+
+
+# session start: 2011-01-19 17:57:57 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories'
+response = HTTParty.get("http://www.yellowpages.com")
+pc = PopularCategories.new(response.body)
+pc.popular_categories_all
+pc.category_names
+Nokogiri::HTML(doc).css('div.drawer-content div.category-group ul li').text
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li').text
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li > a').text
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li').text
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li').text.strip
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li')
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li').text
+exit
+
+# session stop: 2011-01-19 18:37:48 -0800
+
+
+# session start: 2011-01-19 18:37:53 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories'
+require 'httparty'
+exit
+
+# session stop: 2011-01-19 18:39:13 -0800
+
+
+# session start: 2011-01-19 18:39:15 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'popular_categories'
+response = HTTParty.get("http://www.yellowpages.com")
+pc = PopularCategories.new(response.body)
+pc.popular_category_all
+pc.popular_categories_all
+pc.category_names
+require 'SponsoredListing'
+require 'SponsoredListings'
+exit
+
+# session stop: 2011-01-19 18:44:08 -0800
+
+
+# session start: 2011-01-19 18:44:12 -0800
+
+
+require 'SponsoredListings'
+require 'sponsored_listings'
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/attorneys")
+sp = SponsoredListings.new(response.body)
+sp.diamonds
+ap sp.diamonds
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com")
+pcc = PopularCategories.new(@browser.get_html_source)
+require nokogiri
+require 'popular_categories'
+require 'nokogiri'
+pcc = PopularCategories.new(@browser.get_html_source)
+@browser.click("link=Open Popular Categories")
+pccc = PopularCategories.new(@browser.get_html_source)
+Nokogiri::HTML(@browser.get_html_source).css('div.drawer-content div.category-group ul li').text
+exit
+
+# session stop: 2011-01-19 18:54:07 -0800
+
+
+# session start: 2011-01-20 08:34:16 -0800
+
+
+require 'nokogiri'
+require 'popular_categories'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com")
+pc = PopularCategories.new(response.body)
+pc.category_names
+Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li')
+nkhtml=Nokogiri::HTML(response.body).css('div.drawer-content div.category-group ul li')
+pc.names_ary(nkhtml)
+stupid = pc.names_ary(nkhtml)
+ap stupid
+exit
+
+# session stop: 2011-01-20 09:03:04 -0800
+
+
+# session start: 2011-01-20 09:04:19 -0800
+
+
+require nokogiri
+require 'nokogiri'
+require 'httparty'
+require 'popular_categories'
+response = HTTParty.get("http://www.yellowpages.com")
+pc = PopularCategories.new(response.body)
+ap pc.popular_categories_all
+exit
+
+# session stop: 2011-01-20 09:13:17 -0800
+
+
+# session start: 2011-02-03 09:48:18 -0800
+
+
+exit
+
+# session stop: 2011-02-03 09:48:23 -0800
+
+
+# session start: 2011-02-03 09:51:54 -0800
+
+
+string = "hello"
+p string
+string.upcase
+string.downcase
+string.upcase!
+p string
+string.is_a?
+string.is_a?(Object)
+string.is_a?(String)
+String.is_a?(Object)
+clear ; irb
+clear ;irb
+clear ;
+exit
+
+# session stop: 2011-02-03 10:00:15 -0800
+
+
+# session start: 2011-02-03 10:00:20 -0800
+
+
+Symbol.all_symbols
+Symbol.all_symbols.map {|x| x.to_s}
+Symbol.all_symbols
+ap Symbol.all_symbols.map {|x| x.to_s}
+ap Symbol.all_symbols
+ap Symbol.all_symbols.map {|x| x.to_s}
+ap Symbol.all_symbols
+ap Symbol.all_symbols.map {|x| x.to_s}
+assert_raise()do
+:cats + :dogs
+end
+require 'minitest/common'
+require 'minitest'
+assert true
+assert_raise ("")
+assert_raise("")
+
+
+# session stop: 2011-02-04 10:34:32 -0800
+
+
+# session start: 2011-02-14 11:08:18 -0800
+
+
+@browser.start_new_browser_session
+@browser.open("http://www.yellowpages.com")
+require 'httparty'
+require 'search_result'
+require 'search_results'
+require 'setup'
+@browser.open("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+require 'nokogiri'
+exit
+
+# session stop: 2011-02-14 11:16:06 -0800
+
+
+# session start: 2011-02-14 11:35:01 -0800
+
+
+require 'httparty'
+require 'nokogiri'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons").first
+ap listing
+listing = @results.feature("Coupons").last
+ap listing
+listing = @results.feature("Coupons")
+ap listing
+response = HTTParty.get("http://ypauto1.np.wc1.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons")
+ap listing
+exit
+
+# session stop: 2011-02-14 11:58:03 -0800
+
+
+# session start: 2011-02-14 11:58:05 -0800
+
+
+require 'nokogiri'
+require 'search_results'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature
+listing = @results.feature("Coupons")
+ap listing
+exit
+
+# session stop: 2011-02-14 12:01:53 -0800
+
+
+# session start: 2011-02-14 12:01:56 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+exit
+
+# session stop: 2011-02-14 12:31:50 -0800
+
+
+# session start: 2011-02-14 12:31:52 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons")
+ap listing
+listing = @results.feature("Coupons").first
+ap listing
+listing = @results.feature(">> coupons").first
+ap listing
+listing = @results.feature("coupons").first
+ap listing
+exit
+
+# session stop: 2011-02-14 13:38:51 -0800
+
+
+# session start: 2011-02-14 13:40:40 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons")
+exit
+
+# session stop: 2011-02-14 13:42:28 -0800
+
+
+# session start: 2011-02-14 13:43:12 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+listing = @results.feature("coupons")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons")
+ap listing
+listing = @results.feature("coupons").first
+ap listing
+exit
+
+# session stop: 2011-02-14 13:47:39 -0800
+
+
+# session start: 2011-02-14 13:51:13 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+exit
+
+# session stop: 2011-02-14 13:51:53 -0800
+
+
+# session start: 2011-02-14 13:51:59 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+@browser.start_new_browser_session
+@browser.open ("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new @browser.get_html_source
+ap @results.feature("Coupons").first
+exit
+
+# session stop: 2011-02-14 13:57:33 -0800
+
+
+# session start: 2011-02-14 13:58:37 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons").last
+exit
+
+# session stop: 2011-02-14 14:00:22 -0800
+
+
+# session start: 2011-02-18 15:38:03 -0800
+
+
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons").first
+ap listing
+exit
+
+# session stop: 2011-02-18 18:32:53 -0800
+
+
+# session start: 2011-03-07 11:27:00 -0800
+
+
+exit
+
+# session stop: 2011-03-07 11:27:06 -0800
+
+
+# session start: 2011-03-07 19:46:34 -0800
+
+
+exit
+
+# session stop: 2011-03-07 19:46:54 -0800
+
+
+# session start: 2011-03-08 11:36:52 -0800
+
+
+exit
+
+# session stop: 2011-03-08 11:45:25 -0800
+
+
+# session start: 2011-03-11 17:20:00 -0800
+
+
+@browser.start_new_browser_session
+@browser.open("http://qa-lemur1.np.wc1.yellowpages.com:9798
+")
+@browser.click("link=Sign In")
+@browser.type("loginUsername", "lemuruser@gmail.com")
+@browser.type("loginPassword", "test12345")
+@browser.click("link=Go")
+@browser.click("css=a:contains('Go')")
+@browser.click("css=#loginButton")
+@browser.is_text_present("Welcome")
+exit
+
+# session stop: 2011-03-11 17:28:25 -0800
+

@@ -1,0 +1,30 @@
+11:06:09 AM Sean Gallagher: I have 15 symlinked
+11:06:10 AM Sean Gallagher: $ lss | wc -l
+      15
+11:06:22 AM Michael Yang: 15?!!!
+11:06:23 AM Sean Gallagher: actually, that includes my bin dir
+11:06:31 AM Michael Yang: 15 rc(s)?
+11:06:33 AM Michael Yang: wow
+11:06:48 AM Michael Yang: I only have 3
+11:07:09 AM Michael Yang: and 3 rc(s) have not symlinked
+11:07:15 AM Michael Yang: and 3rc(s) already symlinked
+11:08:49 AM Sean Gallagher: I symlink all these
+11:08:51 AM Sean Gallagher: .ackrc
+.bash_profile
+.bash_sshagent
+.bashrc
+.gemrc
+.gitcompletion
+.gitconfig
+.gitignore
+.gvimrc
+.irbrc
+.rvmrc
+.screenrc
+.vim
+.vimrc
+bin
+11:09:54 AM Michael Yang: I need to do .bash_profile, bashrc, gitcompletion, gitconfig, gitignore, 
+11:10:00 AM Michael Yang: for symlinks
+11:10:21 AM Michael Yang: but I don't have bash_sshagent, gemrc, screenrc
+11:10:25 AM Sean Gallagher: I link to files that are in my dropbox in a git repo

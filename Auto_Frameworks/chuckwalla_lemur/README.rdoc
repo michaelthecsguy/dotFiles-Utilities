@@ -1,0 +1,30 @@
+== Description
+
+Chuckwalla regression suite for WebYP.
+
+Chuckwalla tests are a standalone suite of Selenium tests for testing WebYP.
+Tests are designed to run against Selenium RC running on localhost (OR) using
+SauceLabs' OnDemand service.
+
+== Examples
+
+Display test tasks:
+
+  rake -T
+
+Run all tests:
+
+  rake test
+
+Run all tests against staging environment:
+
+  TEST_ENV=staging rake test
+
+Run all tests against SauceLabs OnDemand service:
+
+  SELENIUM=ondemand rake test
+
+== Questions and/or Comments
+
+Contact {Sean Gallagher}[mailto:sgallagher@attinteractive.com] or
+{Mike Yang}[myang@attinteractive.com] with any questions.

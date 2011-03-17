@@ -1,0 +1,13 @@
+hub:
+  port: 4444
+  remoteControlPollingIntervalInSeconds: 180
+  sessionMaxIdleTimeInSeconds: 300
+  environments:
+    - name:    "Internet Explorer 6"
+      browser: "*iexplore"
+    - name:    "Internet Explorer 7"
+      browser: "*iexplore"
+    - name:    "Internet Explorer 8"
+      browser: "*iexplore"
+    - name:    "Firefox 3.6"
+      browser: "*firefox"

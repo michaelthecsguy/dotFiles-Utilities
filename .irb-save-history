@@ -1,0 +1,100 @@
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons").first
+ap listing
+listing = @results.feature("Coupons").last
+ap listing
+listing = @results.feature("Coupons")
+ap listing
+response = HTTParty.get("http://ypauto1.np.wc1.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons")
+ap listing
+exit
+require 'nokogiri'
+require 'search_results'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature
+listing = @results.feature("Coupons")
+ap listing
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons")
+ap listing
+listing = @results.feature("Coupons").first
+ap listing
+listing = @results.feature(">> coupons").first
+ap listing
+listing = @results.feature("coupons").first
+ap listing
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons")
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+listing = @results.feature("coupons")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons")
+ap listing
+listing = @results.feature("coupons").first
+ap listing
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+@browser.start_new_browser_session
+@browser.open ("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new @browser.get_html_source
+ap @results.feature("Coupons").first
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons").last
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons").first
+ap listing
+exit
+exit
+exit
+exit
+@browser.start_new_browser_session
+@browser.open("http://qa-lemur1.np.wc1.yellowpages.com:9798
+")
+@browser.click("link=Sign In")
+@browser.type("loginUsername", "lemuruser@gmail.com")
+@browser.type("loginPassword", "test12345")
+@browser.click("link=Go")
+@browser.click("css=a:contains('Go')")
+@browser.click("css=#loginButton")
+@browser.is_text_present("Welcome")
+exit

@@ -1,0 +1,27 @@
+# .gitconfig
+
+[user]
+	name = Mike Yang
+	email = myang@attinteractive.com
+
+[core]
+	editor = mate
+	excludesfile = /Users/myang/.gitignore
+
+[alias]
+  co = checkout
+  br = branch
+  st = status
+  ci = commit
+  crpk = cherry-pick
+  df = diff
+  lg = log -p
+  wc = whatchanged -p
+[color]
+	ui = auto
+[log]
+  date = local
+[apply]
+  whitespace = fix
+[push]
+	default = tracking

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ypad/!svn/ver/9716/trunk/qa_tools/automation/Lemur/cuke/features/features/authentication
+END
+invalid_auth.feature
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/ypad/!svn/ver/9716/trunk/qa_tools/automation/Lemur/cuke/features/features/authentication/invalid_auth.feature
+END
+valid_auth.feature
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ypad/!svn/ver/9880/trunk/qa_tools/automation/Lemur/cuke/features/features/authentication/valid_auth.feature
+END

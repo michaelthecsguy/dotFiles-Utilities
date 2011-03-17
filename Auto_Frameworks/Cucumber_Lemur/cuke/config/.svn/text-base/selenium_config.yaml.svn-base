@@ -1,0 +1,41 @@
+:browsers:
+  :local: 
+    :mode: selenium
+    :selenium_server_address: localhost
+    :selenium_server_port: 4444
+    :selenium_browser_key: '*chrome'
+    :selenium_browser_startup_timeout: 20
+  :rc: 
+    :mode: selenium
+    :selenium_server_address: 10.45.14.250
+    :selenium_server_port: 4444
+    :selenium_browser_key: '*firefox3'
+    :selenium_browser_startup_timeout: 20
+
+  :grid:
+    :mode: selenium
+    :selenium_server_address:
+    :selenium_server_port:
+    :selenium_browser_key:
+    :selenium_browser_startup_timeout: 20
+
+:targets:
+  :qa1: 
+    :application_framework: external
+    :application_address: 'qa-lemur1.np.wc1.yellowpages.com'
+    :application_port: 9798
+  
+  :qa2:
+    :application_framework: external
+    :application_address: 'qa-lemur2.np.wc1.yellowpages.com'
+    :application_port: 9798
+
+  :qa3:
+    :application_framework: external
+    :application_address: 'qa-lemur3.np.wc1.yellowpages.com'
+    :application_port: 9798
+  
+  :stage:
+    :application_framework: external
+    :application_address: 'stage-lemur.prod.wc1.yellowpages.com'
+    :application_port: 9798

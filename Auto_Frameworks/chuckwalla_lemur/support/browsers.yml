@@ -1,0 +1,25 @@
+---
+-
+  selenium_name: iexplore
+  long_name:     Internet Explorer
+  long_version:  8.0.6001.18702.
+  os:            Windows 2003
+  short_version: "8"
+-
+  selenium_name: iexplore
+  long_name:     Internet Explorer
+  long_version:  7.0.5730.13.
+  os:            Windows 2003
+  short_version: "7"
+- 
+  selenium_name: iexplore
+  long_name:     Internet Explorer
+  long_version:  6.0.3790.1830.
+  os:            Windows 2003
+  short_version: "6"
+-
+  selenium_name: firefox
+  long_name:     Firefox
+  long_version:  3.6.10.
+  os:            Windows 2003
+  short_version: "3.6"

@@ -1,0 +1,16 @@
+# TODO
+
+Thur Dec 23, 2010
+Discuss with Sean regarding on line 129 in search.selenium.feature - Map pin
+because that's the only test that I haven't converted
+
+Wed Jan 05, 2011
+Add a helper method for building valid URLs using search terms and search location
+e.g. "CONFIG[:base_url]/#{search_location}/#{search_terms}"
+taking into account spaces, downcasing, etc.
+
+Tue Jan 18, 2011
+Need to implement a class for Categories in homepage
+
+Fri Feb 11, 2011
+Looking def test (* var) for overloading method

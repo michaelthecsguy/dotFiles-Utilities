@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'git_svn_sync/command'
+
+GitSvnSync::Command.run

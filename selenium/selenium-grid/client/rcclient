@@ -1,0 +1,122 @@
+#!/bin/bash
+
+selenium_grid=/cygdrive/c/selenium-grid
+ant=/cygdrive/c/ant/bin/ant
+
+rundir=/var/run/selenium
+logdir=/var/log/selenium
+
+for d in $rundir $logdir; do
+  if [ ! -d $d ]; then
+    mkdir -p $d
+  fi
+done
+
+ipaddr=`ipconfig | grep "IP Address" | cut -d: -f 2 | tr -d " "`
+
+running=false
+
+start_rc_clients(){
+  case $ipaddr in
+    "10.45.14.152")
+      environment="Internet Explorer 8"
+      ports="5555"
+      launch_remote_control
+      environment="Firefox 3.6"
+      ports="5556 5557"
+      launch_remote_control
+      ;;
+    "10.45.14.86")
+      environment="Internet Explorer 7"
+      ports="5555"
+      launch_remote_control
+      environment="Firefox 3.6"
+      ports="5556 5557"
+      launch_remote_control
+      ;;
+    "10.45.14.56")
+      environment="Internet Explorer 6"
+      ports="5555"
+      launch_remote_control
+      environment="Firefox 3.6"
+      ports="5556 5557"
+      launch_remote_control
+      ;;
+    *)
+      echo "Host not defined: $ipaddr"
+      exit 1
+      ;;
+  esac
+}
+
+launch_remote_control(){
+  cd $selenium_grid
+  for port in $ports; do
+    browser=$(echo $environment | tr -d " ")
+    $ant -Dport "$port" -Dhost "$ipaddr" \
+      -Denvironment "$environment" -DhubURL http://ypgrid.np.wc1.yellowpages.com:80 \
+      launch-remote-control > $logdir/$browser-$port.log 2>&1 &
+    pid=$!
+    echo $pid > $rundir/$browser-$port.pid
+    echo "Selenium RC started on ${ipaddr}:${port}, pid=$pid: $environment"
+  done
+}
+
+check_if_running(){
+  pidfiles=$(ls $rundir/*.pid 2> /dev/null | wc -l)
+  if [ "$pidfiles" != 0 ]; then
+    running=true
+  else
+    running=false
+  fi
+}
+
+kill_all(){
+  # Kill all java processes
+  echo -n "Killing all java processes..."
+  pids=$(ps -W | grep java | awk '{ print $1 }')
+  for p in $pids; do
+    taskkill /F /PID $p > /dev/null 2>&1
+  done
+  rm $rundir/*.pid
+  rm $logdir/*.log
+  echo "done!"
+}
+
+case "$1" in
+  "start")
+    check_if_running
+    if [ $running == "true" ]; then
+      echo "Selenium RC clients are already running."
+      exit
+    fi
+    start_rc_clients
+    ;;
+  "stop")
+    check_if_running
+    if [ $running == "true" ]; then
+      kill_all
+    else
+      echo "Selenium RC clients are already down."
+    fi
+    ;;
+  "status")
+    check_if_running
+    if [ $running == "true" ]; then
+      echo -e "Selenium RC clients are running.\n"
+      echo "PID files:"
+      for f in $rundir/*.pid; do
+        echo $f
+      done
+      echo -e "\nLog files:"
+      for f in $logdir/*.log; do
+        echo $f
+      done
+    else
+      echo "Selenium RC clients are down."
+    fi
+    ;;
+  *)
+    echo "USAGE: $0 [start|stop|status]"
+    exit
+esac
