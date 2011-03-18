@@ -28,3 +28,28 @@ bin
 11:10:00 AM Michael Yang: for symlinks
 11:10:21 AM Michael Yang: but I don't have bash_sshagent, gemrc, screenrc
 11:10:25 AM Sean Gallagher: I link to files that are in my dropbox in a git repo
+
+To write a setup file for different machine to sync from dropbox
+
+for my rcfiles, I do
+
+# Link RC files
+for f in $dropbox/rcfiles/*; do
+  target=$HOME/.${f##*/}
+  if [ -f $target ] && [ ! -h $target ]; then
+    mv $target{,.bak.$datetime}
+  fi
+  ln -sf $f $target
+done
+
+for vim runtime, I do
+# Link Vim runtime directory
+target=$HOME/.vim
+if [ -d $target ] && [ ! -h $target ]; then
+  mv $target{,.bak.$datetime}
+fi
+if [ -h $target ]; then
+  rm $target
+fi
+ln -sf $dropbox/vim $target
+
