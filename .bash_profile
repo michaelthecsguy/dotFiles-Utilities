@@ -7,6 +7,10 @@ fi
 export PATH=/usr/local/bin/:/usr/local/sbin/:/opt/local/bin/:/opt/local/sbin/:$HOME/bin:$PATH
 #$DYLD_LIBRARY_PATH:$PATH
 
+#set Maven 2 Path
+export M2_HOME=/usr/share/maven
+export PATH=$M2_HOME/bin:$PATH
+
 #set Path for Ruby Version Manager
 export PATH=$HOME/.rvm/bin:$PATH
 

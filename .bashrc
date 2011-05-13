@@ -1,7 +1,7 @@
 export EDITOR='/Users/myang/bin/vim'
 export VISUAL='/Users/myang/bin/mvim'
 
-set history=100
+set history=1000000000
 
 alias rm='rm -i'
 alias cp='cp -i'
