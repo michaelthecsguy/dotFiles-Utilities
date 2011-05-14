@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # author: Duane Johnson
+# modified: Michael Yang
 # email: duane.johnson@gmail.com
 # date: 2008 Jun 12
 # license: MIT
