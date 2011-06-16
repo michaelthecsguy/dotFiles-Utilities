@@ -4,6 +4,7 @@ $: << "."
 require 'HTTParty'
 require 'pp'
 require 'awesome_print'
+require 'interactive_editor'
 require 'rubygems'
 
 begin
