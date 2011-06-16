@@ -1,7 +1,7 @@
 $: << "."
 #require 'map_by_method'
 #require 'what_methods'
-#require 'HTTParty'
+require 'HTTParty'
 require 'pp'
 require 'awesome_print'
 require 'rubygems'
@@ -140,6 +140,17 @@ USER_AGENT = {
   :slurp =>
     'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)',
 }
+
+# Tips and Tricks
+def fl(file_name)
+  file_name += '.rb' unless file_name =~ /\.rb/
+  @@recent = file_name 
+  load "#{file_name}"
+end
+ 
+def rl
+  fl(@@recent)
+end
 
 def ls
   %x{ls}.split("\n")
