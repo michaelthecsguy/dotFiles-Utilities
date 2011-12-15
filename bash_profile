@@ -65,3 +65,14 @@ HISTSIZE=1000000
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
+
+#############################
+# Setting PATH for Java
+export TPKG_HOME=/home/t
+export JAVA_HOME=$TPKG_HOME/jdk_current
+export JDK_HOME=$JAVA_HOME
+export JBOSS_HOME=$TPKG_HOME/jboss-5.1.0.GA
+export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
+export SVN_EDITOR=vim
+export SVN_ROOT=https://subversion.flight.yellowpages.com
+export JAVA_OPTS="$JAVA_OPTS -ea -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=29462"
