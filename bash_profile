@@ -71,6 +71,7 @@ export PATH
 export TPKG_HOME=/home/t
 export JAVA_HOME=$TPKG_HOME/jdk_current
 export JDK_HOME=$JAVA_HOME
+export MAVEN_HOME=$TPKG_HOME/apache-maven-2.2.1
 export JBOSS_HOME=$TPKG_HOME/jboss-5.1.0.GA
 export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
 export SVN_EDITOR=vim
