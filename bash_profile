@@ -69,6 +69,8 @@ export PATH
 #############################
 # Setting PATH for Java
 export TPKG_HOME=/home/t
+PATH=$PATH:$TPKG_HOME/bin
+export PATH
 export JAVA_HOME=$TPKG_HOME/jdk_current
 export JDK_HOME=$JAVA_HOME
 export MAVEN_HOME=$TPKG_HOME/apache-maven-2.2.1
