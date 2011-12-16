@@ -4,7 +4,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 #set General Path
-export PATH=/usr/local/bin/:/usr/local/sbin/:/opt/local/bin/:/opt/local/sbin/:$HOME/bin:$PATH
+export PATH=/sbin/:/bin/:/usr/local/bin/:/usr/local/sbin/:/opt/local/bin/:/opt/local/sbin/:$HOME/bin/:$PATH
 #$DYLD_LIBRARY_PATH:$PATH
 
 #set Maven 2 Path
