@@ -57,6 +57,7 @@ export PATH=$JSPIDER_HOME/bin:$PATH
 # For irssi
 # export PERL5LIB=/opt/local/lib/perl5/darwin/darwin-2level:$PERL5LIB
 
+# RVM
 [[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
 
 # MacPorts Bash shell command completion
