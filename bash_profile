@@ -35,11 +35,19 @@ export RUBYOPT=rubygems
 export CUCUMBER_DEBUG=true
 export CUCUMBER_FORMAT=pretty 
 
-# Oracle Instant Client, Version 10.2.0.4
-export DYLD_LIBRARY_PATH=$HOME/local/oracle/instantclient_10_2
-export ORACLE_HOME=$HOME/local/oracle/instantclient_10_2
-export SQLPATH=$HOME/local/oracle/instantclient_10_2
-export TNS_ADMIN=$HOME/local/oracle/instantclient_10_2/network/admin
+# Oracle Instant Client, Version 10.2.0.4 64 bits
+# export DYLD_LIBRARY_PATH=$HOME/local/oracle/instantclient_10_2
+# export ORACLE_HOME=$HOME/local/oracle/instantclient_10_2
+# export SQLPATH=$HOME/local/oracle/instantclient_10_2
+# export TNS_ADMIN=$HOME/local/oracle/instantclient_10_2/network/admin
+# export NLS_LANG="AMERICAN_AMERICA.UTF8"
+# export PATH=$DYLD_LIBRARY_PATH:$PATH
+
+# Oracle Instant Client, Version 10.2.0.4 32 bits
+export DYLD_LIBRARY_PATH=$HOME/local/oracle/instantclient_10_2_32
+export ORACLE_HOME=$HOME/local/oracle/instantclient_10_2_32
+export SQLPATH=$HOME/local/oracle/instantclient_10_2_32
+export TNS_ADMIN=$HOME/local/oracle/instantclient_10_2_32/network/admin
 export NLS_LANG="AMERICAN_AMERICA.UTF8"
 export PATH=$DYLD_LIBRARY_PATH:$PATH
 
@@ -57,8 +65,19 @@ if [ -f /opt/local/etc/bash_completion ]; then
 fi
 
 # Set History File Size
-HISTFILESIZE=1000000000
-HISTSIZE=1000000
+HISTFILESIZE=10000000000
+HISTSIZE=100000000
+
+# Set Path for JBOSS
+JBOSS_HOME=/Users/myang/jboss-5.1.0.GA
+export JBOSS_HOME
+export PATH=${PATH}:${JBOSS_HOME}/bin
+
+# Set Path for JAVA in Local Box
+export JAVA_HOME
+export JDK_HOME=$JAVA_HOME
+export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
+export JBOSS_SERVER=web
 
 #############################
 # Setting PATH for Python 2.7
@@ -67,15 +86,15 @@ PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
 
 #############################
-# Setting PATH for Java
-export TPKG_HOME=/home/t
-PATH=$PATH:$TPKG_HOME/bin
-export PATH
-export JAVA_HOME=$TPKG_HOME/jdk_current
-export JDK_HOME=$JAVA_HOME
-export MAVEN_HOME=$TPKG_HOME/apache-maven-2.2.1
-export JBOSS_HOME=$TPKG_HOME/jboss-5.1.0.GA
-export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
-export SVN_EDITOR=vim
-export SVN_ROOT=https://subversion.flight.yellowpages.com
-export JAVA_OPTS="$JAVA_OPTS -ea -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=29462"
+# Setting PATH for Java in Unix Dev Box
+#export TPKG_HOME=/home/t
+#PATH=$PATH:$TPKG_HOME/bin
+#export PATH
+#export JAVA_HOME=$TPKG_HOME/jdk_current
+#export JDK_HOME=$JAVA_HOME
+#export MAVEN_HOME=$TPKG_HOME/apache-maven-2.2.1
+#export JBOSS_HOME=$TPKG_HOME/jboss-5.1.0.GA
+#export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
+#export SVN_EDITOR=vim
+#export SVN_ROOT=https://subversion.flight.yellowpages.com
+#export JAVA_OPTS="$JAVA_OPTS -ea -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=29462"
