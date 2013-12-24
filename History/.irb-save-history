@@ -98,3 +98,2071 @@ exit
 @browser.click("css=#loginButton")
 @browser.is_text_present("Welcome")
 exit
+end_date = end_date.strftime("%Y-%m-%d")
+end_date = (end_date + 60*60*24).strftime("%Y-%m-%d")
+end_date.class
+end_date = (end_date - (end_date.wday*(60*60*24)))
+end_date - 60*60*24
+end_date = (end_date - ((60*60*24)*(end_date.wday+1)))
+end_date = (end_date - (end_date.wday*(60*60*24)+(60*60*24))).strftime("%Y-%m-%d")
+end_date = Time.now
+end_date = (end_date - (end_date.wday*(60*60*24)+(60*60*24)))
+end_date.wday
+end_date = end_date - end_date.wday
+end_date = end_date - 6
+end_date = end_date - 6*(60*60*24)
+end_time = Time.now
+end_time.strftime("%m")
+end_time.day
+end_time.mday
+time = Time.local(end_time.year, end_time.month, 1)
+time = Time.local(end_time.year, end_time.month, 1).strftime("%Y-%m-%d")
+time = Time.local("2011", "11", "1").strftime("%Y-%m-%d")
+end_time.month
+end_time.month.to_s
+end_time.month.to_i - 1
+end_time.year
+time_month = end_time.month - 1
+time = Time.local(end_time.year, time_month, 1)
+time.strftime("%Y-%m-%d")
+time = Time.mktime(end_time.year, time_month, 1).strft("%Y-%m-%d")
+time = Time.new(end_time.year, time_month, 1)._dump
+time = Time.new(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+time.month.last_date
+time.month.last
+d = Date.new
+d = Date.now
+time = Time.new(end_time.year, time_month, 1)
+time = Time.mktime(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+d = Date.new(time)
+d = Date.new(2006, 9, -1)
+d = Date.new(2006, 9)
+d = Date.new(2006, 9).to_s
+d = Date.new("2006", "9").to_s
+time = Time.mktime(end_time.year, time_month, 1)
+d = Date.new(time.year, time.month-1)
+d = Date.new(time.year, time.month-1, -1)
+d = Date.new(time.year, time.month-1, -1).to_s
+d = Date.new(time.year, time.month-1, -1).strptime("%Y-%m-%d")
+d = Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+d = Date.new(time.year, time.month-1, -1).strftime("%Y-%m-%d")
+time = time.new
+d = Date.new(time.year, time.month)
+d = Date.new(time.year, time.month).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month + 1, 1).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month + 1, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month -1).strftime("%Y-%m-%d")
+Date.new(time.year, 1, 1).strftime("%Y-%m-%d")
+Date.new(time.year, this.month, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, -2).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, 1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month+1, time.date).strftime("%Y-%m-%d")
+Date.new(time.year, time.month+1).strftime("%Y-%m-%d")
+time = Time.new
+start_date = Date.new(time.year, time.month -1)
+start_date = Date.new(time.year, time.month - 1)
+time.year
+time.month
+time.month - 1
+start_date = Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+time = Time.new(2012, 1, 2)
+Date.new(time.year, time.month - 1)
+Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+s = "$3,201.00"
+ap s.gsub(/(\$|\,)/)
+ap s
+ap s.gsub(/(\$\,)/)
+ap s.gsub(/(\$|\,)/, "")
+10295.175.round(2)
+10295.175.to_f
+10295.175.to_f.round(2)
+10295.175.to_d.round(2)
+1.175.to_s
+1.175.to_f
+1.175.round(2)
+x = 1.175.to_s
+x = 10295.175.to_s
+x = x.to_f
+x = x.round(2)
+x = 10295.175 * 100
+x / 100
+10295.175 * 1000
+10295.175 * 100
+@browser.start_new_browser_session
+@browser.open("http://www.yahoo.com")
+a = Array.new
+a.class
+a.class.to_string
+a.to_string
+a.class.to_hash
+exit
+time = Time.new(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+time.month.last_date
+time.month.last
+d = Date.new
+d = Date.now
+time = Time.new(end_time.year, time_month, 1)
+time = Time.mktime(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+d = Date.new(time)
+d = Date.new(2006, 9, -1)
+d = Date.new(2006, 9)
+d = Date.new(2006, 9).to_s
+d = Date.new("2006", "9").to_s
+time = Time.mktime(end_time.year, time_month, 1)
+d = Date.new(time.year, time.month-1)
+d = Date.new(time.year, time.month-1, -1)
+d = Date.new(time.year, time.month-1, -1).to_s
+d = Date.new(time.year, time.month-1, -1).strptime("%Y-%m-%d")
+d = Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+d = Date.new(time.year, time.month-1, -1).strftime("%Y-%m-%d")
+time = time.new
+d = Date.new(time.year, time.month)
+d = Date.new(time.year, time.month).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month + 1, 1).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month + 1, -1).strftime("%Y-%m-%d")
+# session stop: 2011-11-29 21:05:49 -0800
+# session start: 2011-11-29 21:14:05 -0800
+Date.new(time.year, time.month -1).strftime("%Y-%m-%d")
+Date.new(time.year, 1, 1).strftime("%Y-%m-%d")
+Date.new(time.year, this.month, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, -2).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, 1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month+1, time.date).strftime("%Y-%m-%d")
+Date.new(time.year, time.month+1).strftime("%Y-%m-%d")
+time = Time.new
+start_date = Date.new(time.year, time.month -1)
+start_date = Date.new(time.year, time.month - 1)
+time.year
+time.month
+time.month - 1
+start_date = Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+time = Time.new(2012, 1, 2)
+Date.new(time.year, time.month - 1)
+Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+# session stop: 2011-12-07 08:04:12 -0800
+# session start: 2011-12-29 21:49:55 -0800
+s = "$3,201.00"
+ap s.gsub(/(\$|\,)/)
+ap s
+ap s.gsub(/(\$\,)/)
+ap s.gsub(/(\$|\,)/, "")
+# session stop: 2011-12-29 21:56:00 -0800
+# session start: 2012-02-10 07:49:40 -0800
+10295.175.round(2)
+10295.175.to_f
+10295.175.to_f.round(2)
+10295.175.to_d.round(2)
+# session stop: 2012-02-10 07:51:22 -0800
+# session start: 2012-02-10 07:57:00 -0800
+1.175.to_s
+1.175.to_f
+1.175.round(2)
+x = 1.175.to_s
+x = 10295.175.to_s
+x = x.to_f
+x = x.round(2)
+x = 10295.175 * 100
+x / 100
+# session stop: 2012-02-10 10:28:30 -0800
+# session start: 2012-02-10 11:21:23 -0800
+10295.175 * 1000
+10295.175 * 100
+# session stop: 2012-02-10 11:22:30 -0800
+# session start: 2012-03-20 11:35:59 -0700
+# session stop: 2012-03-20 11:36:21 -0700
+# session start: 2012-03-20 11:39:36 -0700
+# session stop: 2012-03-20 11:40:30 -0700
+# session start: 2012-03-20 11:42:06 -0700
+# session stop: 2012-03-20 11:42:15 -0700
+# session start: 2012-03-20 11:42:31 -0700
+# session stop: 2012-03-20 11:42:42 -0700
+# session start: 2012-03-20 11:42:44 -0700
+# session stop: 2012-03-20 11:42:45 -0700
+# session start: 2012-03-20 11:43:18 -0700
+# session stop: 2012-03-20 11:46:39 -0700
+# session start: 2012-03-20 11:46:41 -0700
+# session stop: 2012-03-20 11:47:33 -0700
+# session start: 2012-03-20 13:53:30 -0700
+# session stop: 2012-03-20 13:53:42 -0700
+# session start: 2012-03-20 13:55:13 -0700
+# session stop: 2012-03-20 13:55:42 -0700
+# session start: 2012-03-20 13:56:40 -0700
+# session stop: 2012-03-20 13:56:58 -0700
+# session start: 2012-03-20 13:58:38 -0700
+@browser.start_new_browser_session
+@browser.open("http://www.yahoo.com")
+# session stop: 2012-03-20 13:59:31 -0700
+
+exit
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons").first
+ap listing
+listing = @results.feature("Coupons").last
+ap listing
+listing = @results.feature("Coupons")
+ap listing
+response = HTTParty.get("http://ypauto1.np.wc1.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons")
+ap listing
+exit
+require 'nokogiri'
+require 'search_results'
+require 'httparty'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature
+listing = @results.feature("Coupons")
+ap listing
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("Coupons")
+ap listing
+listing = @results.feature("Coupons").first
+ap listing
+listing = @results.feature(">> coupons").first
+ap listing
+listing = @results.feature("coupons").first
+ap listing
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons")
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+listing = @results.feature("coupons")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons")
+ap listing
+listing = @results.feature("coupons").first
+ap listing
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+@browser.start_new_browser_session
+@browser.open ("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new @browser.get_html_source
+ap @results.feature("Coupons").first
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons").last
+exit
+require 'nokogiri'
+require 'httparty'
+require 'search_results'
+response = HTTParty.get("http://www.yellowpages.com/irvine-ca/pest-control-services?g=Irvine%2C+CA&q=Pest+Control+Services")
+@results = SearchResults.new(response)
+listing = @results.feature("coupons").first
+ap listing
+exit
+exit
+exit
+exit
+@browser.start_new_browser_session
+@browser.open("http://qa-lemur1.np.wc1.yellowpages.com:9798
+")
+@browser.click("link=Sign In")
+@browser.type("loginUsername", "lemuruser@gmail.com")
+@browser.type("loginPassword", "test12345")
+@browser.click("link=Go")
+@browser.click("css=a:contains('Go')")
+@browser.click("css=#loginButton")
+@browser.is_text_present("Welcome")
+exit
+require 'selenium-webdriver'
+driver = Selenium::WebDriver.for :firefox
+driver.navigate.to "http://www.google.com"
+driver.find_element(:name, 'q').send_keys "Hello!  It's from WebDriver!!!".submit
+driver.find_element(:name, 'q').send_keys("Hello!  It's from WebDriver!!!").submit
+driver.find_element(:name, 'q')
+element = _
+element.send_keys("Hello! It's from WebDriver!")
+driver.close
+driver = Selenium::WebDriver.for :firefox
+driver.find_element(:name, 'q').send_keys("Hello!  It's from WebDriver!!!").submit
+driver.find_element(:name, 'q').send_keys("Hello!  It's from WebDriver!!!").submit
+driver.find_element(:name, 'q').send_keys("Hello!  It's
+exit
+require 'selenium-webdriver'
+driver = Selenium::WebDriver.for :firefox
+driver.navigate.to "http://google.com"
+element = driver.find_element(:name, 'q')
+element.send_keys "Hello! It's from WebDriver!"
+element.submit
+element.title
+driver.title
+driver.quit
+exit
+@browser.start_new_browser_session
+@browse.open("http://qa-lemur1.np.wc1.yellowpages.com:9798")
+@browser.open("http://qa-lemur1.np.wc1.yellowpages.com:9798")
+@browser.click("css=a:contains('Privacy Policy')")
+@browser.close
+@browser.close_current_browser_session
+"Sites & Apps".upcase
+@browser.start_new_browser_session
+@browser.open("http://sso.attinteractive.com/")
+@browser.open("http://qa-lemur3.np.wc1.yellowpages.com:9798/admin")
+@browser.click("link='Register new publisher with portal access'")
+@browser.open(
+exit
+@browser.start_new_browser_session
+@browser.open("http://sso.attinteractive.com/")
+@browser.open("http://qa-lemur3.np.wc1.yellowpages.com:9798/admin/register")
+@browser.open("http://qa-lemur3.np.wc1.yellowpages.com:9798/admin")
+@browser.click("link='Register new publisher with portal access'")
+@browser.click("link=Register new publisher with portal access")
+@browser.click("link=Register")
+@browser.click("link=Register new publisher with portal access")
+@browser.back
+@browser.open "/"
+@browser.open("qa-lemur3.np.wc1.yellowpages.com:9798/admin")
+@browser.close_current_browser_session
+exit
+ls
+@browser.start_new_browser_session
+@browser.open("http://qa-lemur3.np.wc1.yellowpages.com:9798/admin")
+@browser.click("a:contains('Register')")
+@browser.click("css=a:contains('Register')")
+@browser.close_current_browser_session
+exit
+exit
+@browser.start_new_browser_session
+@browser.open("http://publisher.yp.com")
+@browser.get_all_window_names
+exit
+@browser.start_new_browser_session
+@browser.open("http://publisher.yp.com")
+@browser.click("css=a:contains('Terms')")
+@browser.get_all_window_names
+all_pop_up_names=@browser.get_all_window_names
+all_pop_up_names.each_index do |i|
+unless (all_pop_up_names[i] =~/\D*\d+/).nil?
+@browser.select_window("name=#{all_pop_up_names[i]}")
+end
+end
+all_pop_up_names.each_index do |i|
+unless (all_pop_up_names[i] =~/\D*\d+/).nil?
+@browser.select_window("name=#{all_pop_up_names[i]}")
+puts all_pop_up_name[i]
+end
+end
+all_pop_up_names.each_index do |i|
+unless (all_pop_up_names[i] =~/\D*\d+/).nil?
+@browser.select_window("name=#{all_pop_up_names[i]}")
+puts all_pop_up_names[i]
+end
+end
+@browser.window_focus()
+@browser.close
+@browser.get_all_window_names
+@browser.select_window("name='selenium_main_app_window'")
+@browser.select_window("name=selenium_main_app_window")
+@browser.window_focus()
+@browser.select_window(null)
+@browser.select_window("name=null")
+@browser.select_window("name='null'")
+@browser.select_window("name=nil")
+@browser.select_window("name='nil'")
+@browser.select_window("null")
+@browser.window_focus()
+@browser.click("css=a:contains('Terms')")
+@browser.close
+@browser.close
+exit
+require 'savon'
+client = Savon::client.new "https://publisher.yp.com/service/reportService?wsdl"
+exit
+client = Savon::Client.new "https://publisher.yp.com/service/reportService?wsdl"
+require 'savon'
+client = Savon::Client.new "https://publisher.yp.com/service/reportService?wsdl"
+ap client
+ap client.wsdl.soap_actions
+response.client.request :get_performance_by_range
+ap response=client.request :get_performance_by_range
+response=client.request :get_performance_by_range
+response=client.request :get_performance_by_range do
+soap.body = {:startDate => '2011-05-29'}
+end
+client = Savon::Client.new "https://publisher.yp.com/service/reportService?wsdl"
+client.wsse.credentials "photobucket" "photobucket123"
+client.wsse.credentials "photobucket", "photobucket123"
+client = Savon::Client.new "https://publisher.yp.com/service/reportService?wsdl"
+client.wsse.credentials "photobucket", "photobucket123"
+client.wsse.credentials "photobucket","photobucket123"
+client = Savon::Client.new "http://publisher.yp.com/service/reportService?wsdl"
+client.wsse.credentials "photobucket","photobucket123"
+response=client.request :rep :get_performance_by_range do
+end
+response=client.request :rep, :get_performance_by_range do
+soap.body = {:request => {:startDate => '2011-05-29'}}
+end
+client = Savon::Client.new "https://publisher.yp.com/service/reportService?wsdl"
+client.wsse.credentials "photobucket","photobucket123"
+response=client.request :rep, :get_performance_by_range do
+soap.body = {:request => {:startDate => '2011-05-29'}}
+end
+ap response
+response.to_hash
+ap response.to_hash
+resp = HTTParty.get("http://publisher.yp.com")
+resp = HTTParty.get("https://publisher.yp.com/")
+resp = HTTParty.get("https://publisher.yp.com/")
+resp = HTTParty.get("http://publisher.yp.com/")
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li')
+ap nav_menu
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').value
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').text.strip
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > name').text.strip
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > id').text.strip
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li a').text.strip
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li a')
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li')
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').attr('value').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').attr('title').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').attr('title')
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li').attr('value')
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > a').attr('herf').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > a').attr('href').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > a').attr('href').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li')
+ap nav_menu.to_hash
+ap nav_menu
+ap nav_menu.to_array
+pp nav_menu
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > a').attr('title').text
+nav_menu=Nokogiri::HTML(resp).css('.tabBar li > a').attr('href').text
+nav_menu=Nokogiri::HTML(resp).css('#siteHeader > a').attr('href').text
+nav_menu=Nokogiri::HTML(resp).css('#siteHeader > a')
+nav_menu=Nokogiri::HTML(resp).css('#siteHeader tabBar li >a')
+nav_menu=Nokogiri::HTML(resp).css('#siteHeader tabBar li > a')
+nav_menu=Nokogiri::HTML(resp).css('#siteHeader #headerNavBot tabBar li > a')
+nav_menu=Nokogiri::HTML(resp).css('#siteHeader .tabBar li > a')
+ap nav_menu.attr('title').text
+ap nav_menu.attr('href')
+ap nav_menu.attr('href').value
+ap nav_menu.attr('href').text
+exit
+require 'savon'
+require 'base_page'
+require 'base_page'
+exit
+require 'savon'
+require 'base_page'
+exit
+require 'base_page'
+require 'nokogiri'
+require 'base_page'
+require 'httparty'
+require 'BasePage'
+require 'base_page.rb'
+exit
+require 'base_page'
+exit
+require 'base_page.rb'
+require 'httparty'
+require 'nokogiri''
+require 'nokogiri'
+require 'savon'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+base_page.nav_bar_menu_links
+base_page.nav_bar_menu_links
+exit
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+require 'base_page'
+base_page = BasePage.new(resp)
+require 'nokogiri''
+base_page = BasePage.new(resp)
+exit
+require 'nokogiri'
+require 'base_page'
+base_page = BasePage.new(resp)
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+base_page.nav_bar_menu_links
+exit
+require 'base_page'
+require 'nokogiri'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+ap base_page
+ap base_page.nav_bar_menu_links
+exit
+require 'base_page'
+require 'nokogiri'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+ap base_page.nav_bar_menu_links
+exit
+require 'base_page'
+require 'nokogiri'
+require 'httparty'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+ap base_page.nav_bar_menu_links
+exit
+require 'base_page'
+require 'httparty'
+require 'nokogiri'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+ap base_page.nav_bar_menu_links
+exit
+require 'base_page'
+require 'nokogiri'
+require 'httparty'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+base_page.site_header.css('.tabBar li[id$="TabLi"]')
+ap base_page.site_header.css('.tabBar li[id$="TabLi"]')
+ap base_page.site_header.css('.tabBar li[id$="TabLi"] > a')
+clear;
+base_page.nav_bar_menu_links
+exit
+require 'httparty'
+require 'nokogiri'
+require 'base_page'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+base_page.nav_bar_menu_links
+ap base_page.nav_bar_menu_links
+exit
+require 'httparty'
+require 'base_page'
+require 'nokogiri'
+base_page = BasePage.new(resp)
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+base_page.nav_bar_menu_links
+ap base_page.nav_bar_menu_links
+exit
+require 'httparty'
+require 'nokogiri'
+require 'base_page'
+resp = HTTParty.get("https://publisher.yp.com/")
+base_page = BasePage.new(resp)
+base_page = BasePage.new(resp)
+ap base_page.nav_bar_menu_links
+exit
+require 'base_module_reports'
+require 'reports'
+require 'report'
+require 'module_reports'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+report_api.request
+exit
+require 'module_reports'
+require 'report'
+require 'base_module_reports'
+exit
+require 'base_module_reports'
+require 'report'
+require 'module_reports'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+report_api.request
+exit
+require 'base_module_reports'
+require 'report'
+require 'module_reports'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+report_api.request
+exit
+require 'base_module_reports'
+require 'report'
+require 'module_reports'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+report_api.request
+report_api.request({:startDate=> '2011-05-01'})
+report_api.request({:startDate => '2011-05-01'})
+exit
+require 'base_module_reports'
+require 'report'
+require 'module_reports'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+report_api.request({:startDate => '2011-05-01'})
+ap report_api.request({:startDate => '2011-05-01'})
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.to_hash
+ap report_api
+ap report_api.request({:startDate => '2011-05-01'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01'})
+ap report_api.request({})
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.request({})
+ap report_api.request({:startDate => '2011-05-01'})
+ap report_api.request({})
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+ap report_api.request({})
+ap report_api.request({:startDate => '2011-05-01'})
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+ap report_api.request({:startDate => '2011-05-01'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+ap report_api.request({:startDate => '2011-05-01'})
+ap report_api.success
+ap report_api.success?
+ap report_api.request({:startDate => '2011-05-01'}).success?
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+ap report_api.request({:startDate => '2011-05-01'}).success?
+response = report_api.request({:startDate => '2011-05-01'})
+response.success?
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gpbr)
+ap report_api.request({:startDate => '2011-05-01'}).success?
+ap report_api.request({}).success?
+ap report_api.request().success?
+ap report_api.request({:startDate => '2011-05-01'}).success?
+status = report_api.request({:startDate => '2011-05-01'}).success?
+status
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01', :endDate => '2011-05-05'})
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com:9798', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+status
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+require 'report'
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+require 'base_module_reports'
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'http_response'
+response = HttpResponse.new("https://qa-lemur3.np.wc1.yellowpages.com")
+response.upstatus
+response.up_status
+response.get_status
+response = HttpResponse.new("https://qa-lemur3.np.wc1.yellowpages.com:8443")
+response.up_status
+response = HttpResponse.new("http://qa-lemur3.np.wc1.yellowpages.com:9798")
+response.up_status
+response.get_status
+response = HttpResponse.new("https://qa-lemur3.np.wc1.yellowpages.com:8443")
+response.get_status
+response = HttpResponse.new("https://qa-lemur3.np.wc1.yellowpages.com:8443/service/reportService?wsdl")
+response.get_status
+response.up_status
+response = HttpResponse.new("https://qa-lemur3.np.wc1.yellowpages.com/service/reportService?wsdl")
+response.up_status
+response = HttpResponse.new("http://qa-lemur3.np.wc1.yellowpages.com/service/reportService?wsdl")
+response.up_status
+response = HttpResponse.new("http://qa-lemur3.np.wc1.yellowpages.com:9798/service/reportService?wsdl")
+response.up_status
+response = HttpResponse.new("Aligned Scenarios and Added WIP on coming new scenario"")
+Sending        features/features/reporting_api/get_reports_soap.feature
+Transmitting file data .
+Committed revision 496.
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://stage-lemur.prod.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report.api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://stage-lemur.prod.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'https://qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'publisher.yp.com', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'stage-lemur.prod.wc1.yellowpages.com:8443', :username => 'photobucket', :password => 'photobucket123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+report_api = ReportAPI.new({:host => 'stage-lemur.prod.wc1.yellowpages.com:8443', :username => 'pinger', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-01-01', :endDate => '2011-05-05'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'stage-lemur.prod.wc1.yellowpages.com:8443', :username => 'pinger', :password => 'test123'}, :gapbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'stage-lemur.prod.wc1.yellowpages.com:8443', :username => 'pinger', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01', :endDate => '2011-05-02'})
+report_api = ReportAPI.new({:host => 'stage-lemur.prod.wc1.yellowpages.com', :username => 'pinger', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01', :endDate => '2011-05-02'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gapbr)
+exit
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'reports'
+require 'report'
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01', :endDate => '2011-05-02'})
+ap report_api.response
+ap report_api.response
+ap report_api.response
+ap report_api.response.[:get_aggregate_performance_by_range]
+ap report_api.response.[get_aggregate_performance_by_range]
+ap report_api.response[:get_aggregate_performance_by_range]
+ap report_api.response[:get_aggregate_performance_by_range_response]
+ap report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list]
+ap report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node]
+ap  report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].size
+ap  report_api.response[:api_key_node]
+array_size = report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].size
+for (0..array-size-1)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_keys[]= report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].each do |index|
+ap "#{index[:@api_key]}"
+end
+api_keys = report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].each do |set|
+ap "#{index[:@api_key]}"
+end
+api_keys = Array.new
+api_keys = report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].each do |set|
+ap "#{index[:@api_key]}"
+end
+report_api = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gapbr)
+ap report_api.request({:startDate => '2011-05-01', :endDate => '2011-05-02'})
+api_keys = Array.new
+api_keys = report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].each do |set|
+ap "#{index[:@api_key]}"
+end
+api_keys = report_api.response[:get_aggregate_performance_by_range_response][:report][:api_key_date_list][:api_key_list][:api_key_node].each do |set|
+ap "#{set[:@api_key]}"
+end
+ap api_keys
+ruby -e '$<.each {|l| puts l}' filename
+exit
+mvim .
+mvim 
+exit
+mvim capitalize.rb
+mvim capitalize
+mvim 
+require 'capitalize'
+mvim 
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+mvim 'capitalize'
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.net({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gpbr)
+api_report_init = ReportAPI.net({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.net({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gpbr)
+api_report_init = ReportAPI.net({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.net({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gpbr)
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com:8443', :username => 'skelath', :password => 'test123'}, :gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+api_report_init.request
+api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response
+ap response.to_hash
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gapbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response.to_hash
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+ap response.to_hash
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response.to_hash
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response.to_hash
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response.to_hash
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response.to_hash
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-31'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-31'})
+ap response.to_hash
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+ap response.to_array
+ap response.to_hash
+ap response.to_array
+ap response.to_hash
+ap response.to_array
+ap response.to_hash
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+ap response.to_hash
+ap response.to_array
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+api_report_init.get_api_keys(:gapbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+require 'module_reports'
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gpbr)
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gapbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-02'})
+api_report_init.get_api_keys(:gapbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gapbr)
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-05-01', :end_date => '2011-05-01'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-03-02', :end_date => '2011-03-02'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-06-29', :end_date => '2011-06-29'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-06-29', :end_date => '2011-06-30'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-03-02', :end_date => '2011-03-02'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-03-02', :end_date => '2011-03-04'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-03-04', :end_date => '2011-03-05'})
+api_report_init.get_api_keys(:gpbr)
+response = api_report_init.request({:start_date => '2011-03-02', :end_date => '2011-03-04'})
+api_report_init.get_api_keys(:gpbr)
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+exit
+require 'base_module_reports'
+require 'module_reports'
+require 'report'
+api_report_init = ReportAPI.new({:host => 'qa-lemur3.np.wc1.yellowpages.com', :username => 'skelath', :password => 'test123'}, :gpbr)
+response = api_report_init.request({:start_date => '2011-03-02', :end_date => '2011-03-04'})
+api_report_init.get_api_keys(:gpbr)
+exit
+resp = HTTParty.get("https://publisher.yp.com/")
+@browser.start_new_browser_session
+@browser.start_new_browser_session()
+@browser.start_new_browser_session()
+@browser.open("publisher.yp.com")
+@browser.open("publisher.yp.com")
+@browser.start_new_browser_session()
+@browser.open("http://publisher.yp.com")
+@browser.click("Publisher API")
+@browser.click("css="#pubapiButton")
+"
+;
+exit
+@browser.start_new_browser_session()
+@browser.open("http://publisher.yp.com")
+@browser.click("css="#pubapiButton")
+exit
+exit
+exit
+@browser.start_new_browser_session()
+@browser.open("http://publisher.yp.com")
+@browser.click("css=#pubapiButton")
+@browser.click("css=#request_api_key")
+@browser.is_alert_present
+@browser.is_confirmation_present
+@browser.is_prompt_present
+@browser.is_visible("css=.ui-dialog")
+@browser.focus("css=.ui-dialog")
+@browser.is_text_present("First")
+@browser.type("css=firstName", "Lemur")
+@browser.type("css=#firstName", "Lemur")
+@browser.type("css=#lastName", "User")
+@browser.type("css=#productName", "Automation")
+@browser.type("css=#productDescription", "Automation")
+exit
+@browser.start_new_browser_session()
+@browser.open("http://publisher.yp.com")
+@browser.click("css=#pubapiButton")
+@browser.click("css=#request_api_key")
+@browser.type("css=#firstName", "Lemur")
+@browser.type("css=#lastName", "User")
+@browser.type("css=#productName", "Automation")
+@browser.type("css=#productDescription", "Automation")
+exit
+@browser.start_new_browser_session()
+exit
+@browser.start_new_browser_session()
+@browser.open("http://qa-lemur2.np.wc1.yellowpages.com:9798/")
+@browser.click("css=#signInLink")
+@browser.click("css=a:contains('SITES & APPS')")
+@browser.click("css=a:contains('REPORTS')")
+@browser.is_text_present("REPORTS")
+@browser.click("css=#siteAppsTabli")
+@browser.click("css=#siteAppsTabLi")
+@browser.click("link=SITES & APPS")
+@browser.click("css=a:contains('SITES & APPS')")
+"sites & apps".upcase
+@browser.click("css=a:contains('site & apps'.upcase)")
+@browser.click("css=a:contains("site & apps".upcase)")
+up_text = "sites & apps".upcase
+@browser.click("css=a:contains('#{up_text}')")
+@browser.close_current_browser_session
+@browser.start_new_browser_session()
+@browser.focus("css=#adTagSnippet")
+@browser..get_eval("this.browserbot.getUserWindow().document.getElementById('adTagSnippet').value")
+@browser.get_eval("this.browserbot.getUserWindow().document.getElementById('adTagSnippet').value")
+@browser.get_value("css=#adTagSnippet")
+@browser.close_current_browser_session
+@browser.start_new_browser_session()
+@browser.open("http://qa-lemur2.np.wc1.yellowpages.com:9798")
+@browser.click("link=Sign In")
+@browser.get_eval("this.browserbot.getUserWindow().document.getElementById('adTagSnippet').value")
+ap @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('adTagSnippet').value")
+pp @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('adTagSnippet').value")
+@browser.get_value("css=#adTagAPIKey")
+pp @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('adTagSnippetKey').value")
+pp @browser.get_eval("this.browserbot.getUserWindow().document.getElementById('adTagAPIKey').value")
+@browser.get_value("css=span[id='adTagAPIKey']")
+@browser.focus("css=.ui-dialog")
+@browser.get_value("css=span[id='adTagAPIKey']")
+@browser.get_value("css=#adTagAPIKey")
+@browser.get_value("span[id='adTagAPIKey']")
+@browser.get_value("css=#adTagSnippet")
+@browser.get_value("css=#adTagAPIKey")
+@browser.get_value("css=#adTagSnippet")
+exit
+@browser.start_new_browser_session()
+exit
+@browser.start_new_browser_session()
+@browser.open("http://qa-lemur2.np.wc1.yellowpages.com:9798")
+@browser.get_value("css=#adTagAPIKey")
+@browser.get_value("//span[@id='adTagAPIKey']")
+@browser.get_text("//span[@id='adTagAPIKey']")
+@browser.get_text("css=#adTagAPIKey")
+exit
+@browser.start_new_browser_session()
+end
+@browser.is_element_present("css=#publisherTable > tr")
+@browser.is_element_present("css=#publisherTable > tbody > tr")
+@browser.is_element_present("css=#publisherTable > tbody > tr[0]")
+response = HTTParty.get("http://qa-lemur1.np.wc1.yellowpages.com:9798/admin/publishers")
+exit
+@browser.start_new_browser_session()
+@browser.open("http://qa-lemur1.np.wc1.yellowpages.com:9798/admin
+")
+@browser.open("#{@browser.get_location()}")
+response = HTTParty.get("#{@browser.get_location()}")
+response = HTTParty.get("#{@browser.get_html_source}")
+@table = Nokogiri::HTML(response).css('#publisherTable')
+require nokogiri
+eix
+exit
+require 'nokogiri'
+response = HTTParty.get("#{@browser.get_location()}")
+@browser.start_new_browser_session()
+response = HTTParty.get("#{@browser.get_html_source}")
+response = HTTParty.get("#{@browser.get_html_source}")
+@table = Nokogiri::HTML(response).css('#publisherTable')
+@table = Nokogiri::HTML(response).css('#publisherTable > tbody > tr')
+exit
+@browser.start_new_browser_session
+@browser.open("admin")
+@browser.open("/admin")
+exit
+y,m,d = "2011-09-11".split(/-/)
+Time.new(y,m,d)
+Time.new(y,m,d)
+Time.new(y,m,d) + (60*60*24)
+Time.new(y,m,d) + 2*(60*60*24)
+Time.gmt(y,m,d) + 2*(60*60*24)
+Time.new.gmt(y,m,d) + 2*(60*60*24)
+Time.get_gmt(y,m,d) + 2*(60*60*24)
+Time.getgm(y,m,d) + 2*(60*60*24)
+Time.utc(y,m,d) + 2*(60*60*24)
+Time.utc(y,m,d)
+Time.gmt(y,m,d)
+Time.gm(y,m,d)
+Time.new(y,m,d) + 2*(60*60*24)
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+response = HTTParty.get("#{@browser.get_html_source}")
+response = HTTParty.get(@browser.get_html_source)
+require 'httparty'
+require 'nokogiri'
+response = HTTParty.get(@browser.get_html_source)
+pp response
+exit
+response = HTTParty.get("https://publisher.yp.com/")
+@browser.start_new_browser_session
+@browser.get_location
+response = HTTParty.get(@browser.get_location)
+source = @browser.get_html_source
+response = HTTParty.get(source)
+response = HTTParty.get(@browser.get_location)
+table = Nokogiri::HTML(response).css('th[class^="header"]')
+require nokogiri
+require 'nokogiri'
+table = Nokogiri::HTML(response).css('th[class^="header"]')
+table = Nokogiri::HTML(response).css('#reportTable')
+table = Nokogiri::HTML(response).css('table#reportTable')
+table = Nokogiri::HTML(response).css('div.total_Earnings')
+table = Nokogiri::HTML(response).css('div#reportTableContainer')
+@browser.is_element_present("css=.totalEarnings")
+@browser.is_element_present("css=#reportTable")
+ap response
+table = Nokogiri::HTML("#{response}").css('th[class^="header"]')
+table = Nokogiri::HTML("#{response}").css("th[class^=header]")
+table = Nokogiri::HTML(response).css('#reportTable th[class*="header"]')
+table = Nokogiri::HTML(response).css('.orangeText th[class*="header"]')
+table = Nokogiri::HTML(response).css('.orangeText th[class$="sorting"]')
+table = Nokogiri::HTML(response)
+ap table
+table = Nokogiri::HTML(response).css('th[class$="sorting"]')
+@browser.get_html_source
+response = @browser.get_html_source
+table = Nokogiri::HTML(response).css('th[class$="sorting"]')
+table = Nokogiri::HTML(response).css('th[class^="header"]')
+@browser.close_current_browser_session
+@browser.start_new_browser_session
+response = @browser.get_html_source
+table = Nokogiri::HTML(response).css('th[class^="header"]')
+response = @browser.get_html_source
+table = Nokogiri::HTML(response).css('th[class^="header"]')
+ap table
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+}
+end
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:class_name => el.css('@class'),
+}
+end
+ap result
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:class_name => el.attr('class').value,
+}
+end
+result = table.collect.with_index do |el|
+:column_name => el.text,
+:class_name => el.css('').attr('class').value,
+}
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:class_name => el.css('').attr('class').value,
+}
+end
+end
+result = table.collect.with_index do |el|
+h = {
+:class_name => el.css('@class').attr('class').value,
+}
+end
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:class_link => el.css('> a'),
+}
+end
+end
+result = table.collect.with_index do |el|
+:column_name => el.text,
+:class_name => el.css('@class'),
+:class_link => el.css('th[class^="header"] > a'),
+end
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:class_name => el.css('@class'),
+:class_link => el.css('th[class^="header"] > a'),
+}
+end
+ap result
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:class_name => el.css('@class'),
+:class_name_value => el.css('@class').value,
+:class_element_path => el,
+}
+end
+result = table.collect.with_index do |el|
+h = {
+:column_name => el.text,
+:column_name => el.attr('class').value,
+}
+end
+exit
+@browser.start_new_browser_session
+@browser.open("http://lemur-fe1-qa1.np.wc1.yellowpages.com:9798")
+require 'nokogiri'
+require 'httparty'
+response = HTTParty.get(@browser.get_location)
+table = Nokogiri::HTML(response).css('#reportTable th[class^="header"]')
+table = Nokogiri::HTML(response).css('#reportTable thead th[class^="header"]')
+table = Nokogiri::HTML(response).css('#reportTable thead tr th[class^="header"]')
+table = Nokogiri::HTML(response).css('#reportTable thead th[class^="header"]')
+table = Nokogiri::HTML(response).css('th[class^="header"]')
+pp response
+table = Nokogiri::HTML(response).css('#reportTable')
+@browser.get_location
+response = HTTParty.get(@browser.get_location)
+table = Nokogiri::HTML(response).css('div#body #reportTable')
+response = HTTParty.get(@browser.get_location)
+table = Nokogiri::HTML(response).css('div#body #reportTable')
+table = Nokogiri::HTML(response).css('table#reportTable')
+exit
+@browser.start_new_browser_session
+response = HTTParty.get(@browser.get_location)
+@browser.is_element_present("css=#reportTable")
+table = Nokogiri::HTML(response).xpath("//table[@id='reportTable']")
+require 'nokogiri'
+table = Nokogiri::HTML(response).xpath("//table[@id='reportTable']")
+@browser.is_element_present("css=#reportTable")
+response = HTTParty.get(@browser.get_location)
+table = Nokogiri::HTML(response).xpath("//table[@id='reportTable']")
+table = Nokogiri::HTML(response).xpath("//table[@id='reportTable']/thead")
+@browser.is_element_present("//table[@id='reportTable']")
+@browser.is_element_present("//table[@id='reportTable']/thead")
+@browser.is_element_present("//table[@id='reportTable']/tbody")
+table = Nokogiri::HTML(@browser.get_html_source).xpath("//table[@id='reportTable']")
+ap table
+ap table.class
+ap table.xpath("//thead")
+table.xpath("//thead/tr[1]").each { |th| puts th.class }
+table.xpath("//thead/tr[1]/th").each { |th| puts th.class }
+table.xpath("//thead/tr[1]/th").each { |th| puts th.text }
+headers = Array.new
+table.xpath("//thead/tr[1]/th").each { |th| aheaders << th.text }
+table.xpath("//thead/tr[1]/th").each { |th| headers << th.text }
+ap headers
+headers.shift
+ap headers
+data = {}
+table.xpath("//tbody/tr").each { |row| row.xpath("//td").each_with_index { |i|
+if i==o then
+}
+end
+table.xpath("//tbody/tr").each { |row| content=row.xpath("//td"); content.each_index { |i|
+if i == 0 then
+data[content[i]] = {}
+else
+data
+end
+}
+table.xpath("//tbody/tr").each { |row| content=row.xpath("//td"); content.each_index { |i|
+if i == 0 then
+data[content[i]] = {}
+  col = [content[i]]
+else
+data[col][headers[i] = content[i].text
+end
+}
+}
+}
+}}}}
+table.xpath("//tbody/tr").each { |row| content=row.xpath("//td"); content.each_index { |i|
+if i == 0 then
+data[content[i]] = {}
+  col = [content[i]]
+else
+data[col][headers[i]] = content[i].text
+end
+}
+}
+table.xpath("//tbody/tr").each { |row| content=row.xpath("//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[content.text] = {}
+  col = [content.text]
+else
+data[col][headers[counter]] = content.text
+end
+end
+}
+ap data
+ap table
+table.xpath("//tbody/tr").each { |row| content=row.inner_html.xpath("//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[content.text] = {}
+  col = [content.text]
+end
+end
+}
+table.xpath("//tbody/tr").each { |row| content=row.inner_html.xpath("//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[content.text] = {}
+  col = [content.text]
+else
+data[col][headers[counter]] = content.text
+end
+end }
+table.xpath("tbody/tr").each { |row| content=row.inner_html.xpath("td"); counter=0; content.each do |val|
+if counter == 0 then
+data[content.text] = {}
+  col = [content.text]
+else
+data[col][headers[counter]] = content.text
+end
+end }
+table.xpath("tbody/tr").each { |row| content=row.xpath("td"); counter=0; content.each do |val|
+if counter == 0 then
+data[content.text] = {}
+  col = [content.text]
+else
+data[col][headers[counter]] = content.text
+end
+end
+}
+ap data
+table.xpath("tbody/tr").each { |row| content=row.xpath("td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = [val.text]
+else
+data[col][headers[counter]] = val.text
+end
+end
+}
+ap data
+table.xpath("tbody/tr").each { |row| content=row.xpath("td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = [val.text]
+else
+data[col][headers[counter]] = val.text
+end
+counter += 1
+end
+}
+ap headers
+table.xpath("//thead/tr[1]/th").each { |th| headers << th.text }
+table.xpath("tbody/tr").each { |row| content=row.xpath("td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = [val.text]
+else
+data[col][headers[counter]] = val.text
+end
+counter += 1
+end
+}
+ap headers
+headers = []
+table.xpath("//thead/tr[1]/th").each { |th| headers << th.text }
+table.xpath("tbody/tr").each { |row| content=row.xpath("td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = [val.text]
+else
+data[col][headers[counter]] = val.text
+end
+counter += 1
+end
+}
+ap headers
+puts table.inner_html
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; content.each do |val|
+data[val.text] = {}
+  col = [val.text]
+end
+}
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = [val.text]
+else
+data[col][headers[counter]] = val.text
+end
+counter += 1
+end
+}
+exit
+@browser.start_new_browser_session
+end
+table = Nokogiri::HTML(@browser.get_html_source).xpath("//table[@id='reportTable']")
+require 'nokogiri'
+table = Nokogiri::HTML(@browser.get_html_source).xpath("//table[@id='reportTable']")
+data = {}
+headers = array.new
+headers = Array.new
+table.xpath("//thead/tr/th").each { |th| aheaders << th.text }
+table.xpath("//thead/tr/th").each { |th| headers << th.text }
+ap headers
+table.xpath(".//tbody/tr")
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = [val.text]
+else
+data[col][headers[counter]] = val.text
+counter += 1
+end
+end
+}
+data = {}
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = val.text
+else
+data[col][headers[counter]] = val.text
+end
+counter += 1
+end
+}
+data = {}
+counter = 0
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td");  content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = val.text
+else
+data[col][headers[counter]] = val.text
+end
+end
+end
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = val.text
+else
+data[col][headers[counter]] = val.text
+end
+counter +=1
+ap data
+ap counter
+end
+}
+data = {}
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; content.each do |val|
+end
+end
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; col=nil; content.each do |val|
+if counter == 0 then
+data[val.text] = {}
+  col = val.text
+else
+data[col][headers[counter]] = val.text
+end
+counter +=1
+ap data
+end
+}
+ap data
+data = {}
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; col=nil; content.each do |val|
+if counter == 0 then
+data[val.text.strip] = {}
+  col = val.text.strip
+else
+data[col][headers[counter]] = val.text.strip
+end
+counter +=1
+end
+}
+table.xpath("//thead/tr/th").each { |th| headers << th.text.strip }
+ap headers
+headers = Array.new
+table.xpath("//thead/tr/th").each { |th| headers << th.text.strip }
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; col=nil; content.each do |val|
+if counter == 0 then
+data[val.text.strip] = {}
+  col = val.text.strip
+else
+data[col][headers[counter]] = val.text.strip
+end
+counter =+1
+end
+}
+ap data
+ap header
+ap headers
+data = {}
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; col=nil; content.each do |val|
+if counter == 0 then
+data[val.text.strip] = {}
+  col = val.text.strip
+else
+data[col][headers[counter]] = val.text.strip
+end
+counter += 1
+end
+}
+ap data
+ls
+require 'features/support/db/lemur_reporting_db.rb'
+LemurReportingDB.new.getAPIKeyByName
+LemurReportingDB.new.getAPIKeyByName
+require 'features/support/db/lemur_reporting_db.rb'
+data = {}
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; col=nil; content.each do |val|
+if counter == 0 then
+data[val.text.strip] = {}
+  ap col = val.text.strip
+else
+data[col][headers[counter]] = val.text.strip
+end
+counter += 1
+end
+}
+exit
+require 'nokogiri'
+@browser.start_new_browser_session
+require 'features/support/pages/report_table_page.rb'
+ReportTable.new(@browser.get_html_source)
+ReportingTable.new(@browser.get_html_source)
+response = @browser.get_html_source
+ReportingTable.new(response).table_result
+rt = ReportingTable.new(response)
+rt.table_result
+ap rt.data
+exit
+require 'nokogiri'
+require 'features/support/pages/report_table_page.rb'
+@browser.start_new_browser_session
+response = @browser.get_html_source
+rt = ReportingTable.new(response)
+rt.table_result
+exit
+require 'nokogiri'
+require 'features/support/pages/report_table_page.rb'
+@browser.start_new_browser_session
+response = @browser.get_html_source
+rt = ReportingTable.new(response)
+rt.table_result
+ap rt.data
+rt.headers
+exit
+@browser.start_new_browser_session
+response = @browser.get_html_source
+require 'nokogiri'
+data = Hash.new
+headers = Array.new
+table = Nokogiri::HTML(@browser.get_html_source).xpath("//table[@id='reportTable']")
+table.xpath("//thead/tr/th").each { |th| headers << th.text.strip }
+ap headers
+table.xpath(".//tbody/tr").each { |row| content=row.xpath(".//td"); counter=0; col=nil; content.each do |val|
+if counter == 0 then
+data[val.text.strip] = {}
+  col = val.text.strip
+else
+data[col][headers[counter]] = val.text.strip
+end
+counter += 1
+end
+}
+ap data
+require 'features/support/pages/report_table_page.rb'
+ls
+require 'features/features/support/pages/report_table_page.rb'
+require 'cuke/features/support/pages/report_table_page.rb'
+rt = ReportingTable.new(response)
+rt.table_result
+rt.data
+ap rt.data
+ap rt.headers
+ap rt.table_column_headers
+exit
+@browser.start_new_browser_session
+require 'nokogiri'
+response = @browser.get_html_source
+rt = ReportingTable.new(response)
+require 'cuke/features/support/pages/report_table_page.rb'
+rt = ReportingTable.new(response)
+ap rt.headers
+ap rt.data
+rt.table_result
+rt.headers
+rt.data
+ap rt.data
+exit
+require 'nokogiri'
+@browser.start_new_browser_session
+response = @browser.get_html_source
+rt = ReportingTable.new(response)
+require 'cuke/features/support/pages/report_table_page.rb'
+rt = ReportingTable.new(response)
+rt.headers
+rt.data
+rt.table_result
+ap rt.data
+response = @browser.get_html_source
+rt = ReportingTable.new(response)
+rt.table_result
+ap rt.data
+ap rt.header
+ap rt.headers
+exit
+@browser.start_new_browser_session
+end
+response = @browser.get_html_source
+require 'nokogiri'
+require 'cuke/features/support/pages/report_table_page.rb'
+rt = ReportingTable.new(response)
+ap rt.headers
+ap rt.data
+rt.table_result
+rt.getTableResult
+exit
+@browser.start_new_browser_session
+require 'nokogiri'
+require 'cuke/features/support/pages/report_table_page.rb'
+response = @browser.get_html_source
+rt = ReportingTable.new(response)
+rt.getTableResult
+ap rt.data
+ap rt.headers
+exit
+"HI".locase
+"HI".lowcase
+"HI".lowercase
+exit
+"THIS WEEK".downcase
+exit
+require 'features/support/db/lemur_reporting_db.rb'
+rpt_db = LemurReportingDB.new
+rpt_db.getAPIKeyBySiteAppName("hello")
+exit
+require 'features/support/db/lemur_reporting_db.rb'
+rpt_db.getAPIKeyBySiteAppName("Textfree (Android)")
+rpt_db = LemurReportingDB.new
+rpt_db.getAPIKeyBySiteAppName("Textfree (Android)")
+exit
+exit
+require 'features/support/db/lemur_reporting_db.rb'
+rpt_db = LemurReportingDB.new
+rpt_db.getAPIKeyBySiteAppName("Textfree (Android)")
+exit
+require 'features/support/db/lemur_reporting_db.rb'
+rpt_db = LemurReportingDB.new
+rpt_db.getAPIKeyBySiteAppName("Textfree (Android)")
+exit
+Time.now
+Time.wday
+t = Time.new
+t = nil
+t
+time.now
+time = Time.new
+time.wday
+time.wday + 1
+(Time.new(y,m,d) - 60*60*24).strftime("%Y-%m-%d")
+(Time.new(y,m,d) - (60*60*24)).strftime("%Y-%m-%d")
+Time.new(y,m,d)
+Time.now(y,m,d)
+(Time.new("%y-%m-%d") - (60*60*24)).strftime("%Y-%m-%d")
+(Time.now - (60*60*24)).strftime("%Y-%m-%d")
+(Time.now - 6*(60*60*24)).strftime("%Y-%m-%d")
+(Time.now - 5*(60*60*24)).strftime("%Y-%m-%d")
+(Time.new - 5*(60*60*24)).strftime("%Y-%m-%d")
+Tim.new("%y-%m-%d")
+Time.new("%y-%m-%d")
+Time.new("%Y-%m-%d")
+Time.now.strftime("%y-%m-%d")
+Time.now.strftime("%Y-%m-%d")
+Time.now.strftime("%Y-%m-%d").wday
+Time.new.strftime("%Y-%m-%d").wday
+Time.new.strftime("%Y-%m-%d")
+time = Time.new.strftime("%Y-%m-%d")
+time.wday
+Time.new.wday
+time = Time.new
+time = time.strft("%Y-%m-%d")
+time = time.strftime("%Y-%m-%d")
+end_date = Time.new
+num_weekday = end_date.wday
+Time.now
+Time.now.wday
+time = Time.now.strftime("%Y-%m-%d")
+time.wday
+"234,000".to_i
+"0.32%".to_f
+end_date = Time.now
+end_date = end_date + 60*60*24
+end_date.class
+end_date.strfttime("%Y-%m-%d")
+end_date.strftime("%Y-%m-%d")
+end_date = end_date.strftime("%Y-%m-%d")
+end_date = Time.now
+end_date = (end_date + 60*60*24).strftime("%Y-%m-%d")
+end_date.class
+end_date = Time.now
+end_date = (end_date - (end_date.wday*(60*60*24)))
+end_date - 60*60*24
+end_date = Time.now
+end_date = (end_date - (end_date.wday*(60*60*24)+(60*60*24)))
+end_date = (end_date - ((60*60*24)*(end_date.wday+1)))
+end_date = Time.now
+end_date = (end_date - (end_date.wday*(60*60*24)+(60*60*24)))
+end_date = Time.now
+end_date = (end_date - (end_date.wday*(60*60*24)+(60*60*24))).strftime("%Y-%m-%d")
+end_date = Time.now
+end_date = (end_date - (end_date.wday*(60*60*24)+(60*60*24)))
+end_date.wday
+end_date = end_date - end_date.wday
+end_date = end_date - 6
+end_date = end_date - 6*(60*60*24)
+end_time = Time.now
+end_time.strftime("%m")
+end_time.month
+end_time.day
+end_time.mday
+end_time.year
+time = Time.local(end_time.year, end_time.month, 1)
+time = Time.local(end_time.year, end_time.month, 1).strftime("%Y-%m-%d")
+time = Time.local("2011", "11", "1").strftime("%Y-%m-%d")
+end_time.month
+end_time.month.to_s
+end_time.month.to_i - 1
+end_time.year
+time_month = end_time.month - 1
+time = Time.local(end_time.year, time_month, 1)
+time.strftime("%Y-%m-%d")
+time = Time.new(end_time.year, time_month, 1)
+time = Time.mktime(end_time.year, time_month, 1)
+time = Time.mktime(end_time.year, time_month, 1).strft("%Y-%m-%d")
+time = Time.mktime(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+time = Time.new(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+time = Time.new(end_time.year, time_month, 1)._dump
+time = Time.new(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+time = Time.mktime(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+time = Time.new(end_time.year, time_month, 1)
+time.month
+time.month.last_date
+time.month.last
+d = Date.new
+d = Date.now
+time = Time.new(end_time.year, time_month, 1)
+time = Time.mktime(end_time.year, time_month, 1).strftime("%Y-%m-%d")
+d = Date.new(time)
+d = Date.new(2006, 9, -1)
+d = Date.new(2006, 9)
+d = Date.new(2006, 9).to_s
+d = Date.new("2006", "9").to_s
+time = Time.mktime(end_time.year, time_month, 1)
+d = Date.new(time.year, time.month)
+time = Time.new
+d = Date.new(time.year, time.month-1)
+d = Date.new(time.year, time.month-1, -1)
+d = Date.new(time.year, time.month-1, -1).to_s
+time = Time.new
+d = Date.new(time.year, time.month-1, -1).strptime("%Y-%m-%d")
+d = Date.new(time.year, time.month-1, -1).strftime("%Y-%m-%d")
+time = Time.new
+d = Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+d = Date.new(time.year, time.month-1, -1).strftime("%Y-%m-%d")
+time = time.new
+time = Time.new
+d = Date.new(time.year, time.month)
+time = Time.new
+d = Date.new(time.year, time.month).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month + 1, 1).strftime("%Y-%m-%d")
+ed = Date.new(time.year, time.month + 1, -1).strftime("%Y-%m-%d")
+time = Time.new
+Date.new(time.year, time.month -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+Date.new(time.year, 1, 1).strftime("%Y-%m-%d")
+Date.new(time.year, this.month, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, -1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, 1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, -2).strftime("%Y-%m-%d")
+Date.new(time.year, time.month, 1).strftime("%Y-%m-%d")
+Date.new(time.year, time.month+1, time.date).strftime("%Y-%m-%d")
+Date.new(time.year, time.month+1).strftime("%Y-%m-%d")
+time = Time.new
+time = Time.new(2012, 1, 2)
+start_date = Date.new(time.year, time.month -1)
+start_date = Date.new(time.year, time.month - 1)
+time.year
+time.month
+time.month - 1
+start_date = Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+time = Time.new(2012, 1, 2)
+Date.new(time.year, time.month - 1)
+Date.new(time.year, time.month - 1).strftime("%Y-%m-%d")
+s = "$3,201.00"
+ap s.gsub(/(\$|\,)/)
+ap s
+ap s.gsub(/(\$\,)/)
+ap s.gsub(/(\$|\,)/, "")
+exit
+10295.175.round(2)
+10295.175.to_f
+10295.175.to_f.round(2)
+10295.175.to_d.round(2)
+1.175.round(2)
+exit
+1.175.to_s
+1.175.to_f
+1.175.round(2)
+x = 1.175.to_s
+x = 10295.175.to_s
+x = x.to_f
+x = x.round(2)
+x = 10295.175 * 100
+x / 100
+exit
+10295.175 * 1000
+10295.175 * 100
+exit
+exit
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+exit
+exit
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+@browser.open("http://www.yahoo.com")
+exit
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+exit
+@browser.start_new_browser_session
+@browser.open("http://www.yahoo.com")
+exit
+a = Array.new
+a.class
+a.class.to_string
+a.to_string
+a.class.to_hash
+exit
+Time.now
+Time.now.strftime("%Y-%m-%d")
+exit
