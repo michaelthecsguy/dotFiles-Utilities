@@ -546,3 +546,652 @@ less .irb-history
 cd dotFiles-Utilities/
 git status
 cd ..
+ps -aux
+ps -au
+ps -u
+ps -x
+ps -x | grep synergy
+cd Publisher
+cd trunk/
+rvm gemset list
+rvm gemset use devTest192p290
+irb
+gem install interactive_editor
+irb
+cd ..
+irb
+ssh myang@lemur-rpt.prod.wc1.yellowpages.com 
+ps -u | grep synergy
+ps -x | grep synergy
+kill -9 6785
+ps -x | grep synergy
+ps -x | grep synergy
+cd trunk
+ls
+cd prm
+ls
+cd webapp
+ls
+cd prmapp
+ls
+cd src
+ls
+cd main
+ls
+cd webapp
+ls
+cd WEB-INF/
+ls
+cd ..
+cd ..
+ls
+cd java
+ls
+cd com
+ls
+cd atti
+ls
+cd publisher/
+ls
+cd prm
+ls
+cd webapp
+ls
+cd prmapp
+ls
+cd client
+ls
+cd util
+ls
+mvim .
+cd adqa/branches/myang/projects/Lemur/cuke/
+rvm gemset use devTest192p290
+browser=rc target=qa1 cucumber -t @estimated_earnings_number
+mvim .
+browser=rc target=qa1 cucumber -t @est_earnings_hourly_db_total_this_week_ecpm
+browser=rc target=qa1 cucumber -t @est_earnings_hourly_db_total_this_week_ecpm
+browser=rc target=qa1 cucumber -t @estimated_earnings_number
+svn st
+svn revert Gemfile.lock
+svn commit -m "Modified the front end automation on Lemur's estimated Earnings for 2.12"
+mvim .
+ps -x | grep synergy
+kill -9 87783
+ps -x | grep synergy
+ps -x | grep synergy
+ps -x | grep synergy
+ps -x | grep synergy
+ps -x | grep synergy
+ps -x | grep synergy
+ps -x | grep synergy
+ps -x | grep synergy
+kill -9 37467
+ps -x | grep synergy
+cd javaprog/
+ls
+mkdir helloWorldSpringMVC
+cd helloWorldSpringMVC/
+mvn --version
+mvn archetype:generate -DgroupId=com.myang.helloworldspring -DartifactId=my-first-spring-webapp -DarchtetypeArtifactId=maven-archetype-webapp
+ls
+cd my-first-spring-webapp/
+ls
+vim pom.xml
+mvn install
+ls
+cd target
+ls
+cd ..
+less pom.xml 
+less pom.xml 
+less pom.xml 
+vim pom.xml
+vim pom.xml
+mvn clean install
+vim pom.xml
+mvn clean install
+ls
+cd src
+ls
+cd main
+ls
+cd webapp
+ls
+cd ../../..
+ls
+cd target
+ls
+cd ..
+vim pom.xml 
+mvn clean install
+cd lunchui
+cd lunch
+ls
+cd trunk
+ls
+cd jboss-5.1.0.GA/bin
+cd javaprog/helloWorldSpringMVC/my-first-spring-webapp/
+ls
+cd target
+ls
+cd ..
+mvn clean install
+ls
+cd src
+ls
+rm -rf test
+ls
+cd ..
+mvn clean install
+ls
+cd src
+ls
+rm -rf test
+ls
+cd ..
+mvn clean install
+mvn clean install -e
+cd src
+ls
+cd ..
+mvn install -e
+mvn install -e
+mvn install -e
+mvn install -e
+mvn clean install -e
+mvn clean install -e
+mvn clean install -e
+mvn clean install -e
+mvn clean
+mvn install
+mvn clean install -e
+mvn clean install -e
+mvn clean install
+mvn clean install
+mvn clean install
+mvn clean
+mvn clean install
+mvn clean install
+vim ~/.bash_profile
+cd adqa
+cd branches
+ls
+cd myang/projects/Lemur/
+rvm gemset use devTest192p290
+cd cuke
+cd javaprog/helloWorldSpringMVC/my-first-spring-webapp/mvn clean install
+cd javaprog/helloWorldSpringMVC/my-first-spring-webapp/
+mvn clean install
+sudo less ~/etc/hosts
+sudo less /etc/hosts
+ls
+cd target
+ls
+cd ..
+mvn clean install
+mvn clean install
+mvn clean install
+mvn clean install
+ls
+cd target
+ls
+cd my-first-spring-webapp/
+ls
+cd ..
+cd jboss-5.1.0.GA//bin
+ls
+cd ..
+ls
+cd server
+ls
+cd web
+ls
+cd deploy
+ls
+ln -s ~/javaprog/helloWorldSpringMVC/my-first-spring-webapp/target/my-first-spring-webapp.war my-first-spring-webapp.war
+ls
+cd ../../../
+cd bin
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+run.sh -b 0.0.0.0 -c web
+cd adqa/branches/myang/projects/Lemur/cuke
+rvm gemset use devTest192p290
+ssh myang@lemur-rpt.prod.wc1.yellowpages.com 
+ps -x | grep synergy
+cd adqa/branches/myang/projects/Lemur/
+ls
+cd cuke
+rvm gemset use devTest192p290
+gem list
+ssh myang@lemur-rpt.prod.wc1.yellowpages.com 
+ssh myang@adqa-grid.np.wc1.yellowpages.com 
+ssh nextgen@adqa-grid.np.wc1.yellowpages.com 
+gem list
+ps -x | grep synergy
+sudo vim /etc/hosts
+sudo vim /etc/hosts
+sudo less /etc/hosts
+sudo less /etc/hosts
+cd jboss-5.1.0.GA/
+cd bin
+run.sh -b 0.0.0.0 -c web
+mvn
+mvn --version
+ssh myang@lemur-rpt-qa.np.wc1.yellowpages.com 
+ssh myang@lemur-rpt-qa.np.wc1.yellowpages.com 
+ssh myang@qa-prm-fe1.np.wc1.yellowpages.com
+cd dotFiles-Utilities/
+ls -ltr
+cd ..
+ls -ltr .bash*
+ls -ltr
+./showAllFiles.sh TRUE
+ls -ltr
+cd dotFiles-Utilities/
+ls
+ls -ltr
+cd local
+ls
+cd ..
+cd ..
+less .bashrc
+less .bash_profile
+ssh myang@adqa-grid.np.wc1.yellowpages.com 
+ssh nextgen@adqa-grid.np.wc1.yellowpages.com 
+ls
+cd adqa
+ls
+cd branches
+ls
+cd mayng
+cd myang
+ls
+cd projects/Lemur/
+rvm gemset list
+rvm gemset use devTest192p290
+gem list
+ssh myang@adqa-grid.np.wc1.yellowpages.com
+ssh nextgen@adqa-grid.np.wc1.yellowpages.com
+sudo vim /etc/hosts
+cd Publisher/trunk/
+ls
+cd common
+svn up
+cd lemur
+cd ..
+cd lemur
+svn up
+cd ..
+cd prm
+svn up
+ping http://mogwai:7700/lemur.doc.wc1?prefix=adTagSnippet
+ping http://mogwai:7700
+ping mogwai
+cd publisher
+ls
+cd trunk
+ls
+cd lemur
+ls
+svn info
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/trunk/lemur https://svn.corp.yp.com/svn/flight/Publisher/trunk/lemur
+cd ..
+cd prm
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/trunk/prm https://svn.corp.yp.com/svn/flight/Publisher/trunk/prm
+cd ..
+cd common
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/trunk/common https://svn.corp.yp.com/svn/flight/Publisher/trunk/common
+cd ..
+cd r2d2
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/trunk/r2d2 https://svn.corp.yp.com/svn/flight/Publisher/trunk/r2d2
+cd ..
+cd ..
+cd branches
+ls
+svn info
+cd lemur_2.4
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.4 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.4
+cd ..
+cd lemur_2.5
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.5 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.5
+cd publisher/branches/lemur_2.6
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.6 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.6
+cd ../lemur_2.7
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.7 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.7
+ls
+cd ..
+cd lemur_2.8
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.8 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.8
+cd lemur
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.8 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.8
+cd ..
+cd ../lemur_2.9
+ls
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/lemur_2.9 https://svn.corp.yp.com/svn/flight/Publisher/branches/lemur_2.9
+ls
+cd ..
+cd r2d2_1.4
+svn switch --relocate https://subversion.flight.yellowpages.com/Publisher/branches/r2d2_1.4 https://svn.corp.yp.com/svn/flight/Publisher/branches/r2d2_1.4
+ls 
+cd Publisher/
+ls
+cd trunk
+ls
+cd prm
+svn up
+cd ..
+cd lemur
+svn up
+cd ~
+less .gemrc
+cd Publisher/trunk/lemur
+cd ..
+ls
+cd prm
+svn up
+ping hazel.attinteractive.com
+cd adqa
+ls
+cd branches
+ls
+cd myang
+ls
+cd projects
+ls
+cd Lemur/
+ls
+cd cuke
+ls
+rvm gemset list
+rvm gemset use devTest192p290
+gem list
+mvim .
+ls
+ssh myang@lemur-rpt-qa.np.wc1.yellowpages.com 
+ssh myang@lg-dev.np.wc1.yellowpages.com
+ssh myang@lgdev1.np.wc1.yellowpages.com
+ssh myang@hazel.attinteractive.com
+ssh myang@hazel.attinteractive.com
+ssh myang@lgdev1.np.wc1.yellowpages.com
+ls
+cd Publisher
+ls
+cd trunk
+ls
+cd prm
+svn up
+svn st
+svn commit -m "Added missing enum values for cp_response_type" service/src/main/java/com/atti/publisher/prm/constants/ContentPartnerSettingEnum.java
+svn commit -m "PRM-1929: Added missing enum values for cp_response_type" service/src/main/java/com/atti/publisher/prm/constants/ContentPartnerSettingEnum.java
+svn commit -m "PRM-1929 Added missing enum values for cp_response_type" service/src/main/java/com/atti/publisher/prm/constants/ContentPartnerSettingEnum.java
+ifconfig
+cd Publisher/trunk/prm/
+svn up
+svn revert service/src/main/java/com/atti/publisher/prm/constants/ContentPartnerSettingEnum.java
+svn up
+ping hazel.attinteractive.com
+cd Publisher
+ls
+cd trunk
+ls
+cd prm
+ls
+svn info
+find -f *rc
+history | grep "rc"
+ls
+mkdir js_koans
+cd js_koans/
+git clone Your promotion code:
+DISC5019951
+Please enter code at
+git clone git@git.corp.attinteractive.com:dmcinnes/jsclass.git
+ls
+sudo killll -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+mvim
+ls
+cd adqa
+ls
+cd trunk
+ls
+cd projects
+ls
+cd Lemur
+ls
+cd cuke
+ls
+mvim .
+cd 
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+cd /Applications/Adium.app/Contents/Frameworks/libpurple.framework/Versions/
+ls
+ln -s 0.10.5 0.10.0
+ls
+ls
+rm -rf 0.10.0
+ls
+ls -ltar
+ln -s Current /Applications/Adium.app/Contents/Frameworks/libpurple.framework/Versions/0.10.0
+ls -ltar
+ln -s Current /Applications/Adium.app/Contents/Frameworks/libglib.framework/Versions/2.0.0
+ln -s Current /Applications/Adium.app/Contents/Frameworks/libintl.framework/Versions/8
+ls -ltar
+ls
+ping qa-prm-fe4.np.wc1.yellowpages.com
+history
+ssh myang@qa-prm-fe4.np.wc1.yellowpages.com
+sudo killall[Bkillall -HUP mDNSResponder
+history
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh qa-prm-fe1.np.wc1.yellowpages.com
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+ifconfig
+ping www.google.com
+cd /etc/hosts
+cd /private/etc/hosts
+ls
+cd etc
+cd ..
+ls
+cd ..
+ls
+cd etc
+ls
+sudo vim hosts
+ping localhost
+ifconfig
+ls
+ls /etc/hosts
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+cd /etc/
+ls
+less hosts
+sudo vim hosts
+less /etc/hosts
+ping hazel.attinteractive.com:8080
+ping hazel.attinteractive.com
+ping hazel.attinteractive.com:8080/prmapp
+ping 10.45.12.121
+less /etc/hosts
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+cd /library/mcafee/ee/agent
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh lgdev1.np.wc1.yellowpages.com
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+ssh lgdev1.np.wc1.yellowpages.com
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh lgdev1.np.wc1.yellowpages.com
+ssh lgdev1.np.wc1.yellowpages.com
+ssh lgdev1.np.wc1.yellowpages.com
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh lgdev1.np.wc1.yellowpages.com
+ssh lgdev1.np.wc1.yellowpages.com
+ssh lgdev1.np.wc1.yellowpages.com
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh lgdev1.np.wc1.yellowpages.com
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+ssh lgdev1.np.wc1.yellowpages.com
+ssh qa-prm-fe1.np.wc1.yellowpages.com
+ssh hd303.ev1.yellowpages.com
+ssh hd303.ev1.yellowpages.com
+ssh hd303.ev1.yellowpages.com
+ssh hd303.ev1.yellowpages.com
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh hd303.ev1.yellowpages.com
+exit
+ssh myang
+@hd303.ev1.yellowpages.com
+ssh myang@hd303.ev1.yellowpages.com
+ssh myang@hd303.ev1.yellowpages.com
+ssh myang@prod180-183.wc1.yellowpages.com
+ssh myang@prod180-183.wc1.atti.com
+ssh myang@prod180.wc1.atti.com
+ssh myang@prod180.wc1.yellowpages.com
+. test_searchapi_login.sh 
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ssh myang@lgdev1.np.wc1.yellowpages.com
+sudo killall -HUP mDNSResponder
+dscacheutil -flushcache
+dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+ls
+rm -rf keys_DisplayAPI_1_QA1.txt
+scp keys_DisplayAPI_1_Medusa_5_QA1.txt myang@np74.ev1.yellowpages.com
+scp keys_DisplayAPI_1_Medusa_5_QA1.txt myang@np74.ev1.yellowpages.com:
+myang@np74.ev1.yellowpages.com
+ssh myang@np74.ev1.yellowpages.com
+ssh myang@hd303.ev1.yellowpages.com
+ssh myang@hd303.ev1.yellowpages.com
