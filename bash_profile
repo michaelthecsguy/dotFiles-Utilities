@@ -61,8 +61,12 @@ export PATH=$JSPIDER_HOME/bin:$PATH
 [[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
 
 # MacPorts Bash shell command completion
-if [ -f /opt/local/etc/bash_completion ]; then
-    . /opt/local/etc/bash_completion
+#if [ -f /opt/local/etc/bash_completion ]; then
+#    . /opt/local/etc/bash_completion
+#fi
+# Homebrew Bash shell command completion - brew install bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 # Set History File Size
