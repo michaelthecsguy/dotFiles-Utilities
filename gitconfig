@@ -2,10 +2,11 @@
 
 [user]
 	name = Mike Yang
-	email = myang@attinteractive.com
+  email = michaelthecsguy@gmail.com
+  #email = myang@attinteractive.com
 
 [core]
-	editor = mate
+	editor = vim
 	excludesfile = /Users/myang/.gitignore
 
 [alias]
