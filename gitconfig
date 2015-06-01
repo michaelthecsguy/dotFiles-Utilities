@@ -1,12 +1,12 @@
 # .gitconfig
 
 [user]
-	name = Mike Yang
+  name = Mike Yang
   email = michaelthecsguy@gmail.com
   #email = myang@attinteractive.com
 [core]
-	editor = vim
-	excludesfile = /Users/myang/.gitignore
+  editor = vim
+  excludesfile = /Users/myang/.gitignore
 [alias]
   co = checkout
   br = branch
@@ -17,10 +17,10 @@
   lg = log -p
   wc = whatchanged -p
 [color]
-	ui = auto
+  ui = auto
 [log]
   date = local
 [apply]
   whitespace = fix
 [push]
-	default = tracking
+  default = tracking
