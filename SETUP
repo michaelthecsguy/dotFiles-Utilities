@@ -17,3 +17,8 @@ Existing Git Repo?
   cd existing_git_repo
   git remote add origin git@github.com:michaelthecsguy/dotFiles-Utilities.git
   git push -u origin master
+
+Setup
+  1. git clone
+  2. at user root, touch .file and then ln -sf .file from git local repo to
+     .file in user's root directory
