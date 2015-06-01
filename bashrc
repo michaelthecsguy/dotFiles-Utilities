@@ -35,5 +35,6 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
  export PS1="\w\[\e[0;32;49m\]\$(parse_git_branch)\[\e[0;0m\]$ "
  export GIT_PS1_SHOWDIRTYSTATE=yes
  export GIT_PS1_SHOWUNTRACKEDFILES=yes
+ . ~/.git-completion.sh  
 #################################################################
 [[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
