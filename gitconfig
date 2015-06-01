@@ -4,11 +4,9 @@
 	name = Mike Yang
   email = michaelthecsguy@gmail.com
   #email = myang@attinteractive.com
-
 [core]
 	editor = vim
 	excludesfile = /Users/myang/.gitignore
-
 [alias]
   co = checkout
   br = branch
