@@ -1,49 +1,86 @@
-#to load .bashrc everytime when I login
+#to load .bashrc everytime if available when I login
 if [ -f ~/.bashrc ]; then
-   source ~/.bashrc
+  source ~/.bashrc
 fi
 
-#set General Path
-export PATH=/sbin/:/bin/:/usr/local/bin/:/usr/local/sbin/:/opt/local/bin/:/opt/local/sbin/:$HOME/bin/:$PATH
-#$DYLD_LIBRARY_PATH:$PATH
+#Homebrew Bash shell command completion - Pre-requisite - has to download Bash Completion from Homebrew
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
 
-#set Maven 2 Path
-export M2_HOME=/usr/share/maven
-export PATH=$M2_HOME/bin:$PATH
-
-#set Path for Ruby Version Manager
-export PATH=$HOME/.rvm/bin:$PATH
-
-#set Path for JMeter
-#export PATH=$HOME/src/JMeter/trunk/bin:$PATH
-
-#set Path for Gems
-export PATH=vendor/gems/bin:$PATH
-export GEM_PATH=$HOME/parity/vendor/gems/ruby/1.8:$GEM_PATH
-
-MANPATH=/opt/local/share/man:$MANPATH
-
-#export RDOCOPT="-S -f html -T hanna"
-
-#Better Practice
-export RUBYOPT=rubygems
+#MacPorts Bash shell command completion - Pre-requisite - has to download Bash Completion from MacPorts
+#if [ -f /opt/local/etc/bash_completion ]; then
+#    . /opt/local/etc/bash_completion
+#fi
 
 #For Paste Bin (already included at very top of the file)
 #export PATH=$HOME/bin:$PATH
+
+#Set Manual command
+#MANPATH=/opt/local/share/man:$MANPATH
+
+#Set History File Size
+HISTFILESIZE=10000000000
+HISTSIZE=100000000
+
+#Set General Path to include Macport Software Installation and Homebrew
+export PATH=/sbin/:/bin/:/usr/local/bin/:/usr/local/sbin/:/opt/local/bin/:/opt/local/sbin/:$HOME/bin/:$PATH
+
+###For Ruby Development Environment###
+#RVM - Ruby Version Management
+[[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
+#Set Path for Ruby Version Manager
+export PATH=$HOME/.rvm/bin:$PATH
+
+#Set Path for Gems
+export PATH=vendor/gems/bin:$PATH
+export GEM_PATH=$HOME/parity/vendor/gems/ruby/1.8:$GEM_PATH
+
+#Better Practice
+export RUBYOPT=rubygems
 
 #Cucumber
 export CUCUMBER_DEBUG=true
 export CUCUMBER_FORMAT=pretty 
 
-# Oracle Instant Client, Version 10.2.0.4 64 bits
-# export DYLD_LIBRARY_PATH=$HOME/local/oracle/instantclient_10_2
-# export ORACLE_HOME=$HOME/local/oracle/instantclient_10_2
-# export SQLPATH=$HOME/local/oracle/instantclient_10_2
-# export TNS_ADMIN=$HOME/local/oracle/instantclient_10_2/network/admin
-# export NLS_LANG="AMERICAN_AMERICA.UTF8"
-# export PATH=$DYLD_LIBRARY_PATH:$PATH
+#Set rDoc - Ruby Doc
+#export RDOCOPT="-S -f html -T hanna"
 
-# Oracle Instant Client, Version 10.2.0.4 32 bits
+#Set irssi chat tool (from Sean Gallagher)
+#export PERL5LIB=/opt/local/lib/perl5/darwin/darwin-2level:$PERL5LIB
+
+###For Java Development Environment###
+#Set JAVA
+export JAVA_HOME=$(/usr/libexec/java_home -v '1.7*')
+export PATH=$JAVA_HOME/bin:$PATH
+PWD=$(pwd)
+. "$PWD/jdkSetUtil.sh" #to include the shell script
+
+
+#Set Maven
+export M2_HOME=$HOME/apache-maven-3.3.3
+export PATH=$M2_HOME/bin:$PATH
+
+#Set Path for JBOSS
+JBOSS_HOME=/Users/myang/jboss-5.1.0.GA
+export JBOSS_HOME
+export PATH=${PATH}:${JBOSS_HOME}/bin
+
+#Set Path for JAVA in Local Box
+export JAVA_HOME
+export JDK_HOME=$JAVA_HOME
+export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
+export JBOSS_SERVER=web
+
+#Set jSpider for web crawler
+#https://paritoshranjan.wordpress.com/2010/07/05/220/
+#export JSPIDER_HOME=$HOME/local/jspider
+#export PATH=$JSPIDER_HOME/bin:$PATH
+
+#Set Path for JMeter
+#export PATH=$HOME/src/JMeter/trunk/bin:$PATH
+
+#Set Oracle DB Instant Client, Version 10.2.0.4 32 bits for Ruby Automation || Newest Version 11.2.0.4.0 (64-bit)
 export DYLD_LIBRARY_PATH=$HOME/local/oracle/instantclient_10_2_32
 export ORACLE_HOME=$HOME/local/oracle/instantclient_10_2_32
 export SQLPATH=$HOME/local/oracle/instantclient_10_2_32
@@ -51,47 +88,15 @@ export TNS_ADMIN=$HOME/local/oracle/instantclient_10_2_32/network/admin
 export NLS_LANG="AMERICAN_AMERICA.UTF8"
 export PATH=$DYLD_LIBRARY_PATH:$PATH
 
-export JSPIDER_HOME=$HOME/local/jspider
-export PATH=$JSPIDER_HOME/bin:$PATH
+########################################
+#Setting PATH for Python 2.7
+#The orginal version is saved in .bash_profile.pysave
+#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+#export PATH
 
-# For irssi
-# export PERL5LIB=/opt/local/lib/perl5/darwin/darwin-2level:$PERL5LIB
-
-# RVM
-[[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
-
-# MacPorts Bash shell command completion
-#if [ -f /opt/local/etc/bash_completion ]; then
-#    . /opt/local/etc/bash_completion
-#fi
-# Homebrew Bash shell command completion - brew install bash-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
-
-# Set History File Size
-HISTFILESIZE=10000000000
-HISTSIZE=100000000
-
-# Set Path for JBOSS
-JBOSS_HOME=/Users/myang/jboss-5.1.0.GA
-export JBOSS_HOME
-export PATH=${PATH}:${JBOSS_HOME}/bin
-
-# Set Path for JAVA in Local Box
-export JAVA_HOME
-export JDK_HOME=$JAVA_HOME
-export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
-export JBOSS_SERVER=web
-
-#############################
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-#############################
-# Setting PATH for Java in Unix Dev Box
+########################################
+########################################
+#Setting PATH for Java in Unix Dev Box
 #export TPKG_HOME=/home/t
 #PATH=$PATH:$TPKG_HOME/bin
 #export PATH
