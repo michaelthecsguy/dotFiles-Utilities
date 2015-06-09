@@ -2,4 +2,7 @@
 jmeter.log
 .netrwhist
 *.class
+*.iml
+*.ipr
+*.iws
 #app_config_local.yml
