@@ -58,7 +58,7 @@ PWD=$(pwd)
 
 
 #Set Maven
-export M2_HOME=$HOME/apache-maven-3.3.3
+export M2_HOME=/usr/local/apache-maven/apache-maven-3.3.3
 export PATH=$M2_HOME/bin:$PATH
 
 #Set Path for JBOSS
