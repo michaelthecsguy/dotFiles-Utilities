@@ -38,3 +38,5 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
  . ~/.git-completion.sh  
 #################################################################
 [[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
+
+source /usr/local/opt/chruby/share/chruby/chruby.sh

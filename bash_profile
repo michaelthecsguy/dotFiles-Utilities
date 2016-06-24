@@ -51,7 +51,7 @@ export CUCUMBER_FORMAT=pretty
 
 ###For Java Development Environment###
 #Set JAVA
-export JAVA_HOME=$(/usr/libexec/java_home -v '1.7*')
+export JAVA_HOME=$(/usr/libexec/java_home -v '1.8*')
 export PATH=$JAVA_HOME/bin:$PATH
 PWD=$(pwd)
 . "$PWD/jdkSetUtil.sh" #to include the shell script
@@ -105,6 +105,19 @@ export PATH=$DYLD_LIBRARY_PATH:$PATH
 #export MAVEN_HOME=$TPKG_HOME/apache-maven-2.2.1
 #export JBOSS_HOME=$TPKG_HOME/jboss-5.1.0.GA
 #export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
-#export SVN_EDITOR=vim
-#export SVN_ROOT=https://subversion.flight.yellowpages.com
+export SVN_EDITOR=vim
+export SVN_ROOT=http://svn.specificmedia.com/svn/projects
 #export JAVA_OPTS="$JAVA_OPTS -ea -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=29462"
+export JAVA_OPTS="-ea -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=29462"
+
+#######################################
+#######################################
+#Setting up Go Environment
+export GOPATH="/Users/myang/go"
+export GOROOT="/user/local/Cellar/go/1.6.2/libexec"
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/myang/google-cloud-sdk/path.bash.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/myang/google-cloud-sdk/completion.bash.inc'
