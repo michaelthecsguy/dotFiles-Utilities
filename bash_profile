@@ -3,6 +3,9 @@ if [ -f ~/.bashrc ]; then
   source ~/.bashrc
 fi
 
+#export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
+#export PS2="| => "
+
 #Homebrew Bash shell command completion - Pre-requisite - has to download Bash Completion from Homebrew
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
@@ -64,7 +67,7 @@ export PATH=$M2_HOME/bin:$PATH
 #Set Path for JBOSS
 JBOSS_HOME=/Users/myang/jboss-5.1.0.GA
 export JBOSS_HOME
-export PATH=${PATH}:${JBOSS_HOME}/bin
+export PATH=${JBOSS_HOME}/bin:${PATH}
 
 #Set Path for JAVA in Local Box
 export JAVA_HOME
