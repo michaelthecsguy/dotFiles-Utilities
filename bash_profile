@@ -117,7 +117,7 @@ export JAVA_OPTS="-ea -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,addr
 #######################################
 #Setting up Go Environment
 export GOPATH="/Users/myang/go"
-export GOROOT="/user/local/Cellar/go/1.6.2/libexec"
+export GOROOT="/usr/local/Cellar/go/1.6.2/libexec"
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/myang/google-cloud-sdk/path.bash.inc'
