@@ -13,6 +13,9 @@ alias mv='mv -i'
 # a “@” after soft links.
 alias ls='ls -F'
 
+# Get rid of .DS_Store files
+alias nomore='find ./ -iname .DS_Store -delete'
+
 ## this is to fool the automounter without showing username and computer
 cd ${HOME}
 
