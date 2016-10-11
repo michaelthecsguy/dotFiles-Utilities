@@ -96,7 +96,9 @@ export PATH=$DYLD_LIBRARY_PATH:$PATH
 #The orginal version is saved in .bash_profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 #export PATH
-export PATH=~/anaconda3/bin:$PATH
+export PYENV_ROOT=/usr/local/var/pyenv
+export PATH=~/anaconda/bin:$PATH
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 ########################################
 ########################################
@@ -125,3 +127,6 @@ source '/Users/myang/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
 source '/Users/myang/google-cloud-sdk/completion.bash.inc'
+
+# added by Anaconda2 4.2.0 installer
+export PATH="/Users/myang/anaconda/bin:$PATH"
