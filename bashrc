@@ -13,6 +13,9 @@ alias mv='mv -i'
 # a “@” after soft links.
 alias ls='ls -F'
 
+# Run it as follows to get top 10 files/dirs eating your disk space
+alias ducks='du -cks * | sort -rn | head'
+
 # Get rid of .DS_Store files
 alias nomore='find ./ -iname .DS_Store -delete'
 
