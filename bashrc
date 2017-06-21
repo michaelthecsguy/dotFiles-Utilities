@@ -45,4 +45,5 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 #################################################################
 [[ -s $HOME/.rvm/scripts/rvm ]] && source "$HOME/.rvm/scripts/rvm"
 
-source /usr/local/opt/chruby/share/chruby/chruby.sh
+###TODO: Do not know why the line below exists
+#source /usr/local/opt/chruby/share/chruby/chruby.sh

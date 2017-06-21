@@ -27,7 +27,7 @@ HISTFILESIZE=10000000000
 HISTSIZE=100000000
 
 #Set General Path to include Macport Software Installation and Homebrew
-export PATH=/sbin/:/bin/:/usr/local/bin/:/usr/local/sbin/:/opt/local/bin/:/opt/local/sbin/:$HOME/bin/:$PATH
+export PATH=/sbin:/bin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$HOME/bin:$PATH
 
 ###For Ruby Development Environment###
 #RVM - Ruby Version Management
@@ -91,6 +91,9 @@ export TNS_ADMIN=$HOME/local/oracle/instantclient_10_2_32/network/admin
 export NLS_LANG="AMERICAN_AMERICA.UTF8"
 export PATH=$DYLD_LIBRARY_PATH:$PATH
 
+#Set MySQL
+export PATH=/usr/local/mysql/bin:$PATH
+
 ########################################
 #Setting PATH for Python 2.7
 #The orginal version is saved in .bash_profile.pysave
@@ -123,7 +126,7 @@ export GOPATH="/Users/myang/go"
 export GOROOT="/usr/local/Cellar/go/1.6.2/libexec"
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/myang/google-cloud-sdk/path.bash.inc'
+#source '/Users/myang/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
 source '/Users/myang/google-cloud-sdk/completion.bash.inc'
