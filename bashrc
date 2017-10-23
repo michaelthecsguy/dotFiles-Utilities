@@ -1,7 +1,20 @@
 export EDITOR='/Users/myang/bin/vim'
 export VISUAL='/Users/myang/bin/mvim'
 
+# no duplicate entries
+export HISTCONTROL=ignoredups:erasedups
+
 set history=1000000000
+
+ # big big history
+export HISTSIZE=1000000000
+export HISTFILESIZE=1000000000
+
+# append to history, don't overwrite it
+shopt -s histappend
+
+# Save and reload the history after each command finishes
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 alias rm='rm -i'
 alias cp='cp -i'
@@ -14,7 +27,7 @@ alias mv='mv -i'
 alias ls='ls -F'
 
 # Run it as follows to get top 10 files/dirs eating your disk space
-alias ducks='du -cks * | sort -rn | head'
+alias ducks='du -cksh * | sort -rn | head'
 
 # Get rid of .DS_Store files
 alias nomore='find ./ -iname .DS_Store -delete'
