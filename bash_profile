@@ -74,6 +74,8 @@ export JAVA_HOME
 export JDK_HOME=$JAVA_HOME
 export JBOSS_DEPLOY_DIR=$JBOSS_HOME/server/web/deploy
 export JBOSS_SERVER=web
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+export PATH=$HOME/.jenv/shims:$PATH
 
 #Set jSpider for web crawler
 #https://paritoshranjan.wordpress.com/2010/07/05/220/
@@ -122,16 +124,17 @@ export JAVA_OPTS="-ea -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,addr
 #######################################
 #######################################
 #Setting up Go Environment
-export GOPATH="/Users/myang/go"
+export GOPATH="$HOME/go"
 export GOROOT="/usr/local/Cellar/go/1.6.2/libexec"
 
 ######################################
 ######################################
 # The next line updates PATH for the Google Cloud SDK.
-#source '/Users/myang/google-cloud-sdk/path.bash.inc'
+source '/Users/myang/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
 source '/Users/myang/google-cloud-sdk/completion.bash.inc'
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME/GBQClientSecretKeys/VindicoDevelopmentProject-639448351aff.json"
 
 #####################################
 ####################################
@@ -139,9 +142,14 @@ source '/Users/myang/google-cloud-sdk/completion.bash.inc'
 export PATH="~/Library/Python/3.6/bin:$PATH"
 
 # added by Anaconda2 4.2.0 installer
-export PATH="/Users/myang/anaconda/bin:$PATH"
+#export PATH="/Users/myang/anaconda/bin:$PATH"
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
+#PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+#export PATH
+# Setting PATH for Airflow
+export AIRFLOW_HOME=~/airflow
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
