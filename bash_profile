@@ -100,7 +100,6 @@ export PATH=/usr/local/mysql/bin:$PATH
 #Setting PATH for Python 2.7
 #The orginal version is saved in .bash_profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-#export PATH
 export PYENV_ROOT=/usr/local/var/pyenv
 export PATH=~/anaconda/bin:$PATH
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
@@ -147,9 +146,8 @@ export PATH="~/Library/Python/3.6/bin:$PATH"
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-#export PATH
+
 # Setting PATH for Airflow
 export AIRFLOW_HOME=~/airflow
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-
